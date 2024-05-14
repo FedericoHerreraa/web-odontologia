@@ -4,10 +4,16 @@
     font-family: sans-serif;
 }
 
+.contenedor {
+    background-image: url('/img/imagen-fondo.jpg');
+    background-size: cover;
+    height: 100vh;
+}
 
 .header {
-    height: 100px;
+    min-height: 100px;
     color: white;
+    opacity: 0.9;
 }
 
 .headerSuperior {
@@ -49,4 +55,34 @@
     width: 250px;
     text-align: center;
     font-size: 25px;
+}
+
+.infoImg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.infoImg h1 {
+    font-size: 100px;
+    color: rgb(75, 75, 109);
+    width: 100px;
+    font-weight: 200;
+}
+
+.infoImg div {
+    width: 400px;
+    background-color: rgb(75, 75, 109);
+    opacity: 0.8;
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
 }
