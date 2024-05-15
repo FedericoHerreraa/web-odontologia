@@ -1,4 +1,5 @@
 import { useState } from "react"
+import styles from "./Contactanos.module.css"
 
 export default function Contactanos() {
     const [nombre, setNombre] = useState('')
@@ -13,26 +14,28 @@ export default function Contactanos() {
     }
 
     return (
-        <div>
-            <h1>Contactanos</h1>
-            <form onSubmit={handleSubmit}>
-                <input 
-                    type="text"
-                    value={nombre}
-                    onChange={(e) => setNombre(e.target.value)} 
-                />
-                <input 
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)} 
-                />
-                <input 
-                    type="password"
-                    value={mensaje}
-                    onChange={(e) => setMensaje(e.target.value)} 
-                />
-                <input type="submit"/>
-            </form>
+        <div className={styles.contenedor}>
+            <div className={styles.ContForm}>
+                <h1 className={styles.titulo}>Contactanos</h1>
+                <form onSubmit={handleSubmit} className={styles.campoForm}>
+                    <input 
+                        type="text"
+                        value={nombre}
+                        onChange={(e) => setNombre(e.target.value)} 
+                    />
+                    <input 
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)} 
+                    />
+                    <input 
+                        type="password"
+                        value={mensaje}
+                        onChange={(e) => setMensaje(e.target.value)} 
+                    />
+                    <input type="submit"/>
+                </form>
+            </div>
         </div>
     )
 }

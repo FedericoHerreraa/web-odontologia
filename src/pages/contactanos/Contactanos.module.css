@@ -1,0 +1,37 @@
+.contenedor{
+    height: 600px;
+    background-image: url('/img/Contacto.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.ContForm{
+    width: 50%;
+    height: 200px;
+    background-color: rgb(31, 31, 165);
+    opacity: 0.7;
+    text-align: center;
+}
+
+.titulo{
+    color: white;
+    
+}
+
+.campoForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.campoForm input{
+    border: none; /* Quita el borde predeterminado */
+    border-bottom: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent; /* Quita el color de fondo predeterminado */
+    outline: none; /* Quita el contorno al recibir foco */
+    width: 80%;
+    
+}

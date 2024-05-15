@@ -33,8 +33,16 @@ export default function Header() {
       <div className={styles.infoImg}>
         <h1>Dr. Christian Saad</h1>
         <div>
-          <h2>Doctor of Dental Medicine</h2>
-          <p>Dr. Shannons has over 10 years of experience in dentistry. He is committed to providing personalized care to his clients, and keeping his.</p>
+          <h2>Especialidades</h2>
+          <ul>
+            <li>Odontología General</li>
+            <li>Ortodoncia</li>
+            <li>Implantología</li>
+            <li>Endodoncia</li>
+            <li>Periodoncia</li>
+            <li>Cirugía Oral y Maxilofacial</li>
+            <li>Estética Dental</li>
+          </ul>
         </div>
       </div>
     </div>
