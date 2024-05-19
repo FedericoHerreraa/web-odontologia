@@ -5,9 +5,10 @@
 }
 
 .contenedor {
-  background-image: url("/img/imagen-fondo.jpg");
-  /* opacity: 0.7; */
-  background-size: cover;
+  /* background-image: url("/img/imagen-fondo.jpg");
+  opacity: 0.7;
+  background-size: cover; */
+  background-color: rgb(210, 210, 210);
   height: 100vh;
 }
 
