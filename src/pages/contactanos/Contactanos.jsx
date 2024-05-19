@@ -19,23 +19,30 @@ export default function Contactanos() {
                 <h1 className={styles.titulo}>Contactanos</h1>
                 <form onSubmit={handleSubmit} className={styles.campoForm}>
                     <input 
+                        className={styles.inputs}
                         type="text"
                         value={nombre}
+                        placeholder="Nombre y Apellido"
                         onChange={(e) => setNombre(e.target.value)} 
                     />
                     <input 
+                        className={styles.inputs}
                         type="email"
                         value={email}
+                        placeholder="Correo electrónico"
                         onChange={(e) => setEmail(e.target.value)} 
                     />
                     <input 
-                        type="password"
+                        className={styles.inputs}
+                        type="text"
                         value={mensaje}
+                        placeholder="Escriba aquí su mensaje..."
                         onChange={(e) => setMensaje(e.target.value)} 
                     />
-                    <input type="submit"/>
+                    <input className={styles.enviar} type="submit"/>
                 </form>
             </div>
         </div>
+        
     )
 }

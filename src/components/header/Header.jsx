@@ -4,8 +4,12 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+// import { useState } from 'react';
+import {useStickyBox} from "react-sticky-box"; // para uso de sticky en el headerinferior
 
 export default function Header() {
+
+  const stickyRef = useStickyBox({offsetTop: 40, offsetBottom: 0})
   return (
     <div className={styles.contenedor}>
       <header className={styles.header}>
@@ -23,12 +27,14 @@ export default function Header() {
             <InstagramIcon fontSize='large'/>
           </div>
         </div>
-        <div className={styles.headerInferior}>
+    
+        <div ref={stickyRef} className={styles.headerInferior}>
           <Link style={{ textDecoration: 'none', color: 'white' }} to='/'>Inicio</Link>
           <Link style={{ textDecoration: 'none', color: 'white' }} to='/nuestrosServicios'>Nuestros servicios</Link>
           <Link style={{ textDecoration: 'none', color: 'white' }} to='/sobreNosotros'>Sobre nosotros</Link>
           <Link style={{ textDecoration: 'none', color: 'white' }} to='/contactanos'>Contactanos</Link>
         </div>
+        
       </header>
       <div className={styles.infoImg}>
         <h1>Dr. Christian Saad</h1>
