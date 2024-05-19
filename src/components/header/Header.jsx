@@ -1,58 +1,51 @@
-import styles from './Header.module.css';
-import { Link } from 'react-router-dom';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-// import { useState } from 'react';
-import {useStickyBox} from "react-sticky-box"; // para uso de sticky en el headerinferior
+import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export default function Header() {
-
-  const stickyRef = useStickyBox({offsetTop: 40, offsetBottom: 0})
   return (
     <div className={styles.contenedor}>
       <header className={styles.header}>
-        <div className={styles.headerSuperior}>
-          <div className={styles.telefono}>
-            <LocalPhoneIcon/>
-            <p>+54 (911) 6296-4493</p>
-          </div>
-          <div className={styles.nombre}>
-            <p>Christian Saad</p>
-          </div>
-          <div className={styles.redes}>
-            <WhatsAppIcon fontSize='large'/>
-            <MailOutlineIcon fontSize='large'/>
-            <InstagramIcon fontSize='large'/>
-          </div>
+        <div className={styles.telefono}>
+          <p>LOGO DE LA WEB</p>
         </div>
-    
-        <div ref={stickyRef} className={styles.headerInferior}>
-          <Link style={{ textDecoration: 'none', color: 'white' }} to='/'>Inicio</Link>
-          <Link style={{ textDecoration: 'none', color: 'white' }} to='/nuestrosServicios'>Nuestros servicios</Link>
-          <Link style={{ textDecoration: 'none', color: 'white' }} to='/sobreNosotros'>Sobre nosotros</Link>
-          <Link style={{ textDecoration: 'none', color: 'white' }} to='/contactanos'>Contactanos</Link>
+        <div className={styles.navegacion}>
+          <Link className={styles.link} to="/">
+            Inicio
+          </Link>
+          <Link className={styles.link} to="/nuestrosServicios">
+            Nuestros servicios
+          </Link>
+          <Link className={styles.link} to="/sobreNosotros">
+            Sobre nosotros
+          </Link>
+          <Link className={styles.link} to="/contactanos">
+            Contactanos
+          </Link>
         </div>
-        
+        <div className={styles.redes}>
+          <WhatsAppIcon fontSize="medium" />
+          <MailOutlineIcon fontSize="medium" />
+          <InstagramIcon fontSize="medium" />
+        </div>
       </header>
       <div className={styles.infoImg}>
         <h1>Dr. Christian Saad</h1>
-        <div>
-          <h2>Especialidades</h2>
-          <ul>
-            <li>Odontología General</li>
-            <li>Ortodoncia</li>
-            <li>Implantología</li>
-            <li>Endodoncia</li>
-            <li>Periodoncia</li>
-            <li>Cirugía Oral y Maxilofacial</li>
-            <li>Estética Dental</li>
-          </ul>
+        <p className={styles.descripcion}>
+          Consultorio de odontologia segura, confiable y la mejor de la zona.
+        </p>
+        <div className={styles.especialidades}>
+          <p>Odontología General</p>
+          <p>Ortodoncia</p>
+          <p>Implantología</p>
+          <p>Endodoncia</p>
+          <p>Periodoncia</p>
+          <p>Cirugía Oral y Maxilofacial</p>
+          <p>Estética Dental</p>
         </div>
       </div>
     </div>
-
-
-  )
+  );
 }
