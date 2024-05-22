@@ -1,3 +1,4 @@
+import { Cards } from "../../components/cards/Cards";
 import Description from "../../components/description/Description";
 import styles from './Home.module.css'
 
@@ -20,6 +21,7 @@ export default function Home() {
         </div>
       </div>
       <Description />
+      <Cards/>
     </div>
   );
 }
