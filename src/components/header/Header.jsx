@@ -6,7 +6,6 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export default function Header() {
   return (
-    <div className={styles.contenedor}>
       <header className={styles.header}>
         <div className={styles.telefono}>
           <p>LOGO DE LA WEB</p>
@@ -31,21 +30,5 @@ export default function Header() {
           <InstagramIcon fontSize="medium" />
         </div>
       </header>
-      <div className={styles.infoImg}>
-        <h1>Dr. Christian Saad</h1>
-        <p className={styles.descripcion}>
-          Consultorio de odontologia segura, confiable y la mejor de la zona.
-        </p>
-        <div className={styles.especialidades}>
-          <p>Odontología General</p>
-          <p>Ortodoncia</p>
-          <p>Implantología</p>
-          <p>Endodoncia</p>
-          <p>Periodoncia</p>
-          <p>Cirugía Oral y Maxilofacial</p>
-          <p>Estética Dental</p>
-        </div>
-      </div>
-    </div>
   );
 }

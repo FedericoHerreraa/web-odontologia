@@ -1,0 +1,37 @@
+
+.home {
+    height: 100vh;
+}
+
+.infoImg {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.infoImg h1 {
+  font-size: 70px;
+  color: rgb(3, 3, 68);
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+.especialidades {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  /* background-color: rgb(187, 187, 187); */
+  background-color: rgb(98, 98, 127);
+}

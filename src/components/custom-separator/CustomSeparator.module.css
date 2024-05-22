@@ -1,0 +1,13 @@
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.container hr {
+    width: 18%;
+}
