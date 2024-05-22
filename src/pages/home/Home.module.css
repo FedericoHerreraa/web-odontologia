@@ -1,12 +1,16 @@
 
 .home {
     height: 100vh;
+    background-image: url(/img/Diseño\ sin\ título.jpg);
+    background-size: cover;
+    
 }
 
 .infoImg {
+  
   display: flex;
   flex-direction: column;
-  margin-top: 8%;
+  padding-top: 8%;
   justify-content: space-around;
   align-items: center;
 }

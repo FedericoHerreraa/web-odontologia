@@ -6,6 +6,7 @@ import SobreNosotros from './pages/sobre-nosotros/SobreNosotros'
 import Home from './pages/home/Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
         <Route path='/sobreNosotros' element={<SobreNosotros/>}/>
         <Route path='/nuestrosServicios' element={<NuestrosServicios/>}/>
       </Routes>
+      
     </BrowserRouter>
   )
 }

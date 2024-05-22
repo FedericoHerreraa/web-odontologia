@@ -1,5 +1,6 @@
 import { Cards } from "../../components/cards/Cards";
 import Description from "../../components/description/Description";
+import { Footer } from "../../components/footer/Footer";
 import styles from './Home.module.css'
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       </div>
       <Description />
       <Cards/>
+      <Footer/>
     </div>
   );
 }

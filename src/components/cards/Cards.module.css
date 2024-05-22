@@ -1,9 +1,10 @@
 .contenedor {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-  
+  height: 60vh;
 }
 
 .card {
