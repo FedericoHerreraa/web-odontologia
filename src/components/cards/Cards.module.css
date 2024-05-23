@@ -1,10 +1,17 @@
 .contenedor {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  /* background-image: url('../../../img/Fondo.jpg'); */
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
   height: 60vh;
+  
+}
+.contenedorFondo{
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+  background-position-y: -100px;
 }
 
 .card {

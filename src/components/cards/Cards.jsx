@@ -3,7 +3,7 @@ import CustomSeparator from "../custom-separator/CustomSeparator";
 
 export const Cards = () => {
   return (
-    <>
+    <div className={styles.contenedorFondo}>
       <CustomSeparator/>
       <div className={styles.contenedor}>
       
@@ -24,6 +24,6 @@ export const Cards = () => {
         </div>
         
       </div>
-    </>
+    </div>
   )
 }

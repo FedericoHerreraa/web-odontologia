@@ -1,11 +1,6 @@
 import { Cards } from "../../components/cards/Cards";
-import Description from "../../components/description/Description";
-<<<<<<< HEAD
-
-// import Slider from "react-slick";
-=======
-import { Footer } from "../../components/footer/Footer";
->>>>>>> ae2a987c37712c3d4fb8ef519412560c3e02f761
+import styles from "./Home.module.css"
+import Footer from "../../components/footer/Footer";
 
 export default function Home() {
   return (
@@ -27,8 +22,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Description />
       <Cards/>
+    
       <Footer/>
     </div>
   );

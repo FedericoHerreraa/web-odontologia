@@ -1,17 +1,12 @@
 
-.home {
-    height: 100vh;
-    background-image: url(/img/Fondo.jpg);
-    background-size: cover;
-    
-}
 
 .infoImg {
-  
+  height: 70vh;
+  background-image: url(/img/Fondo.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   padding-top: 8%;
-  justify-content: space-around;
   align-items: center;
 }
 
@@ -25,6 +20,13 @@
 .descripcion {
   font-size: 18px;
   margin-bottom: 100px;
+}
+
+.descContainer {
+  background-image: url("../../../img/Fondo.jpg");
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: -35px;
 }
 
 .containerSlider {
@@ -44,7 +46,7 @@
   gap: 30px;
   width: 200%; /* Duplicamos el ancho para acomodar los elementos repetidos */
   color: rgb(234, 234, 234);
-  animation: scroll 20s linear infinite; /* Animación de desplazamiento */
+  animation: scroll 15s linear infinite; /* Animación de desplazamiento */
 }
 
 @keyframes scroll {
