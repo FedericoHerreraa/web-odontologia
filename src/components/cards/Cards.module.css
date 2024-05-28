@@ -1,43 +1,73 @@
 .contenedor {
-  /* margin-top: 50px; */
-  /* background-image: url('../../../img/Fondo.jpg'); */
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-  height: 60vh;
-  
+  height: 60%;
 }
-.contenedorFondo{
-  height: 100vh;
+.contenedorFondo {
+  min-height: 100vh;
   background-color: rgb(235, 235, 235);
-  background-position-y: -100px;
 }
 
 .card {
+  display: flex;
+  height: 300px;
   background-color: #f2f2f2;
   padding: 20px;
   border-radius: 10px;
-  width: 29%;
+  width: 100%;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
 }
 
-.card h3 {
+
+.imagen1 {
+  background-image: url("./../../../img/imagen-tratamiento.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+.imagen1 div {
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* Inicialmente invisible */
+  visibility: hidden; /* Oculto visualmente pero ocupa espacio */
+  position: absolute; /* Posicionamiento relativo al contenedor */
+  padding: 10px; 
+  transition: opacity 0.5s, visibility 0.5s; /* Transición suave */
+  background-color: #18143d; /* Fondo semitransparente */
+  color: white; /* Color del texto */
+}
+
+.imagen1 div{
+  color: white;
+}
+
+.imagen1:hover div {
+  opacity: 1; /* Visible al hacer hover */
+  visibility: visible; /* Hace que el contenido sea visible */
+}
+
+.card div h3 {
   color: #00a2ff;
   font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-.card p {
+.card div p {
   color: #333;
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
-.card button {
+
+.card div button {
   background-color: #001bb7;
   color: white;
   padding: 10px 20px;
@@ -48,6 +78,6 @@
   transition: background-color 0.3s ease;
 }
 
-.card button:hover {
+.card div button:hover {
   background-color: #0033cc;
 }
