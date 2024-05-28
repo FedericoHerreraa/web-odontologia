@@ -1,7 +1,7 @@
 import styles from "/src/components/cards/Cards.module.css";
 import CustomSeparator from "../custom-separator/CustomSeparator";
 import img from "./../../../img/imagen-consultorio.jpg"
-// import img2 from "./../../../img/imagen-tratamiento.jpg"
+
 
 export const Cards = () => {
   return (
