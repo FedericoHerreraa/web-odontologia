@@ -1,6 +1,6 @@
 import styles from "/src/components/cards/Cards.module.css";
 import CustomSeparator from "../custom-separator/CustomSeparator";
-import img from "./../../../img/imagen-consultorio.jpg"
+import img from "/img/imagen-consultorio.jpg"
 
 
 export const Cards = () => {
