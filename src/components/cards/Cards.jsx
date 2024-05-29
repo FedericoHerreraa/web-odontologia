@@ -1,6 +1,6 @@
 import styles from "/src/components/cards/Cards.module.css";
 import CustomSeparator from "../custom-separator/CustomSeparator";
-import img from "/img/imagen-consultorio.jpg"
+
 
 
 export const Cards = () => {
@@ -9,7 +9,7 @@ export const Cards = () => {
       <CustomSeparator />
       <div className={styles.contenedor}>
         <div className={styles.card}>
-          <img src={img} alt="imagenConocenos" />
+          <img src="./../../../img/imagen-consultorio.jpg" alt="imagenConocenos" />
           <div>
             <h3>Conocenos</h3>
             <p>
