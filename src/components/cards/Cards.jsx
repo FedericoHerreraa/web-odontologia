@@ -12,7 +12,7 @@ export const Cards = () => {
           <img src={img} alt="imagenConocenos" />
           <div>
             <h3>Conocenos</h3>
-            <p>
+            <p className={styles.texto}> 
               Conocé nuestro consultorio, donde la salud y la estética dental se
               unen para brindarte una experiencia única. Nuestro equipo de
               expertos está comprometido con tu bienestar, utilizando tecnología
@@ -25,7 +25,7 @@ export const Cards = () => {
         <div className={styles.card}>
           <div>
             <h3>Tratamientos</h3>
-            <p>
+            <p className={styles.texto}>
               En nuestro consultorio, estamos dedicados a cuidar de tu salud
               bucal con una amplia gama de servicios diseñados para ti y tu
               familia. Nuestro equipo de profesionales altamente capacitados

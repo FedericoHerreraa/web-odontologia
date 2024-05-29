@@ -15,12 +15,20 @@
   display: flex;
   height: 300px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 40px;
   border-radius: 10px;
   width: 100%;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
+  view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
 }
 
 
@@ -33,15 +41,15 @@
 }
 
 .imagen1 div {
-  width: 100%;
-  height: 100%;
-  opacity: 0; /* Inicialmente invisible */
-  visibility: hidden; /* Oculto visualmente pero ocupa espacio */
-  position: absolute; /* Posicionamiento relativo al contenedor */
+  width: 80%;
+  height: 75%;
+  opacity: 0; 
+  visibility: hidden; 
+  position: absolute; 
   padding: 10px; 
-  transition: opacity 0.5s, visibility 0.5s; /* Transición suave */
-  background-color: #18143d; /* Fondo semitransparente */
-  color: white; /* Color del texto */
+  transition: opacity 0.5s, visibility 0.5s; 
+  background-color: #18143d; 
+  color: white; 
 }
 
 .imagen1 div{
@@ -49,18 +57,22 @@
 }
 
 .imagen1:hover div {
-  opacity: 1; /* Visible al hacer hover */
-  visibility: visible; /* Hace que el contenido sea visible */
+  opacity: 0.7; 
+  visibility: visible; 
+}
+
+.card div{
+  padding: 20px;
 }
 
 .card div h3 {
-  color: #00a2ff;
-  font-size: 1.5em;
+  color: #301277;
+  font-size: 2em;
   margin-bottom: 10px;
 }
 
-.card div p {
-  color: #333;
+.texto {
+  color: rgb(29, 26, 26);
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -68,7 +80,7 @@
 
 
 .card div button {
-  background-color: #001bb7;
+  background-color: #050e44;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -79,5 +91,19 @@
 }
 
 .card div button:hover {
-  background-color: #0033cc;
+  background-color: #0831ad;
 }
+
+
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 45%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
