@@ -8,18 +8,19 @@
 }
 .contenedorFondo {
   min-height: 100vh;
-  background-color: rgb(235, 235, 235);
+  /* background-color: rgb(235, 235, 235); */
 }
 
 .card {
   display: flex;
   height: 300px;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-color: white;
   padding: 40px;
-  border-radius: 10px;
+  border-radius: 30px;
   width: 100%;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
   view-timeline-name: --image;
 	view-timeline-axis: block;
@@ -88,6 +89,7 @@
   text-decoration: none;
   font-size: 1em;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .card div button:hover {
