@@ -44,9 +44,13 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  width: 200%; /* Duplicamos el ancho para acomodar los elementos repetidos */
+  width: 230%; /* Duplicamos el ancho para acomodar los elementos repetidos */
   color: rgb(234, 234, 234);
-  animation: scroll 15s linear infinite; /* Animación de desplazamiento */
+  animation: scroll 15s linear infinite;
+}
+
+.especialidades p {
+  margin-right: 30px;
 }
 
 @keyframes scroll {
