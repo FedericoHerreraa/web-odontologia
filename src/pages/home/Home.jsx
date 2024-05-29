@@ -28,8 +28,8 @@ export default function Home() {
             <p>Estética Dental</p>
           </div>
         </div>
+        <Cards/>
       </div>
-      <Cards/>
     
       <Footer/>
     </div>
