@@ -19,6 +19,13 @@ export default function Home() {
             <p>Periodoncia</p>
             <p>Cirugía Oral y Maxilofacial</p>
             <p>Estética Dental</p>
+            <p>Odontología General</p>
+            <p>Ortodoncia</p>
+            <p>Implantología</p>
+            <p>Endodoncia</p>
+            <p>Periodoncia</p>
+            <p>Cirugía Oral y Maxilofacial</p>
+            <p>Estética Dental</p>
           </div>
         </div>
       </div>
