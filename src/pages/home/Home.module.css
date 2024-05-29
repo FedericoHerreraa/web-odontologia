@@ -1,7 +1,7 @@
 
 
 .infoImg {
-  height: 200vh;
+  min-height: 200vh;
   background-image: url(/img/Fondo.jpg);
   background-size: cover;
   display: flex;
