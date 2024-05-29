@@ -9,7 +9,7 @@ export const Cards = () => {
       <CustomSeparator />
       <div className={styles.contenedor}>
         <div className={styles.card}>
-          <img src="./../../../img/imagen-consultorio.jpg" alt="imagenConocenos" />
+          <img src="/img/Imagen-consultorio.jpg" alt="imagenConocenos" />
           <div>
             <h3>Conocenos</h3>
             <p>
