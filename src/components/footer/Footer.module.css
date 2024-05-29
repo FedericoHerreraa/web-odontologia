@@ -37,6 +37,9 @@
     font-size: 0.9em;
     line-height: 1.5;
   }
+  .footerText img{
+    width: 300px;
+  }
   
   .footerBottom {
     text-align: center;

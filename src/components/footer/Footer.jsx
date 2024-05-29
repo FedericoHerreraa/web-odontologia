@@ -1,5 +1,5 @@
 import styles from './Footer.module.css'
-
+import img from './../../../img/image.png'
 export default function Footer() {
   return (
     <footer className={styles.footerContainer}>
@@ -20,7 +20,7 @@ export default function Footer() {
       <div className={styles.footerSection}>
         <h3 className={styles.footerTitle}>Ubicacion</h3>
         <p className={styles.footerText}>
-          <img  alt="Imagen con link a google maps" />
+          <img src={img} alt="Imagen con link a google maps" />
         </p>
       </div>
       <div className={styles.footerBottom}>
