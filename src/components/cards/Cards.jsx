@@ -1,7 +1,7 @@
 import styles from "/src/components/cards/Cards.module.css";
 import CustomSeparator from "../custom-separator/CustomSeparator";
 import img from "./../../../img/Imagen-consultorio.jpg";
-// import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import img2 from './../../../img/relleno.jpg'
 import { ArrowRight } from "lucide-react";
 export const Cards = () => {
   return (
@@ -35,23 +35,11 @@ export const Cards = () => {
             <button className={styles.boton}>Ver más <ArrowRight size={20} strokeWidth={1.7}className={styles.icono}/></button>
           </div>
           <div className={styles.imagen1}>
-            <div>
-              <h2>tratamientos</h2>
-              <p>Ortodoncia</p>
-              <p>Odontologia</p>
-              <p>Blanqueamiento</p>
-            </div>
+          
           </div>
         </div>
         <div className={styles.card}>
-          <div className={styles.imagen1}>
-            <div>
-              <h2>tratamientos</h2>
-              <p>Ortodoncia</p>
-              <p>Odontologia</p>
-              <p>Blanqueamiento</p>
-            </div>
-          </div>
+          <img src={img2} alt="" />
           <div>
             <h3>Otro titulo</h3>
             <p className={styles.texto}>

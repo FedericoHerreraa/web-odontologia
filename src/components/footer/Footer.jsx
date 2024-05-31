@@ -9,7 +9,7 @@ export default function Footer() {
         <img alt="Logo" src={imgLogo}/>
       </div>
       <div className={styles.footerSection}>
-        <h3 className={styles.footerTitle}>Coultorio Dr. Christian Saad</h3>
+        <h3 className={styles.footerTitle}>Consultorio Dr. Christian Saad</h3>
         <p className={styles.footerText}>
           <a href="#" className={styles.footerLink}>Conocé el consultorio</a><br />
           <a href="#" className={styles.footerLink}>Inicio</a><br />
@@ -20,7 +20,7 @@ export default function Footer() {
         </p>
       </div>
       <div className={styles.footerSection}>
-        <h3 className={styles.footerTitle}>Ubicacion</h3>
+        <h3 className={styles.footerTitle}>Ubicación</h3>
         <p className={styles.footerText}>
           <img src={img} alt="Imagen con link a google maps" />
         </p>
