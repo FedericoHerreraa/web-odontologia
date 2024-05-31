@@ -1,6 +1,7 @@
 import styles from "/src/components/cards/Cards.module.css";
 import CustomSeparator from "../custom-separator/CustomSeparator";
 import img from "./../../../img/Imagen-consultorio.jpg";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 export const Cards = () => {
   return (
@@ -18,7 +19,7 @@ export const Cards = () => {
               de punta y tratamientos personalizados para garantizarte los
               mejores resultados
             </p>
-            <button>Ver más</button>
+            <button className={styles.boton}>Ver más <MdOutlineKeyboardDoubleArrowRight/></button>
           </div>
         </div>
         <div className={styles.card}>
@@ -31,7 +32,7 @@ export const Cards = () => {
               utiliza la última tecnología para garantizarte una atención de
               calidad y resultados excepcionales.
             </p>
-            <button>Ver más</button>
+            <button className={styles.boton}>Ver más <MdOutlineKeyboardDoubleArrowRight/></button>
           </div>
           <div className={styles.imagen1}>
             <div>
@@ -56,7 +57,7 @@ export const Cards = () => {
             <p className={styles.texto}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quod eligendi eveniet earum consequuntur dignissimos fugit, provident maiores autem non sit iusto dolorum, error porro veritatis. Eum ea deleniti iusto?Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit quia, ipsam consequatur mollitia quidem, dignissimos pariatur eos reiciendis assumenda ad dolor sint nesciunt ea ullam praesentium laborum sit cumque!
             </p>
-            <button>Ver más</button>
+            <button className={styles.boton}>Ver más <MdOutlineKeyboardDoubleArrowRight/></button>
           </div>
         </div>
       </div>

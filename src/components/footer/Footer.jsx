@@ -1,10 +1,12 @@
 import styles from './Footer.module.css'
 import img from './../../../img/image.png'
+import imgLogo from './../../../img/LOGO.jpg'
+
 export default function Footer() {
   return (
     <footer className={styles.footerContainer}>
       <div className={styles.footerLogo}>
-        <img alt="Logo" />
+        <img alt="Logo" src={imgLogo}/>
       </div>
       <div className={styles.footerSection}>
         <h3 className={styles.footerTitle}>Coultorio Dr. Christian Saad</h3>

@@ -43,7 +43,8 @@
 .especialidades {
   display: flex;
   justify-content: center;
-  width: 200%; /* Duplicamos el ancho para acomodar los elementos repetidos */
+  align-items: center;
+  width: 230%; /* Duplicamos el ancho para acomodar los elementos repetidos */
   color: rgb(234, 234, 234);
   animation: scroll 20s linear infinite;
 }

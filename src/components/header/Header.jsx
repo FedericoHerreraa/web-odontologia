@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import img from './../../../img/LOGO.jpg'
 
 export default function Header() {
   return (
       <header className={styles.header}>
         <div className={styles.telefono}>
-          <p>LOGO DE LA WEB</p>
+          <img src={img} className={styles.logo} alt="" />
         </div>
         <div className={styles.navegacion}>
           <Link className={styles.link} to="/">

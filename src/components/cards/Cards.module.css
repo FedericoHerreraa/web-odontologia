@@ -59,6 +59,10 @@
 
 .card div{
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card img {
@@ -81,22 +85,43 @@
 }
 
 
-.card div button {
+.boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #050e44;
   color: black;
-  padding: 3px 7px;
-  border-radius: 50px 50px 50px 50px;
+  padding: 15px 17px;
+  border-radius: 50px;
   width: 150px;
   text-decoration: none;
   font-size: 1em;
-  transition: background-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
   cursor: pointer;
 }
 
-.card div button:hover {
-  /* background-color: #354679; */
-  background-color: white;
-  border-color: rgb(132, 132, 132);
+.boton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #050e44;
+  transition: transform 0.3s ease;
+  transform: scaleX(0);
+  transform-origin: left;
+  z-index: -1;
+}
+
+.boton:hover::before {
+  transform: scaleX(1);
+}
+
+.boton:hover {
+  color: white;
 }
 
 
