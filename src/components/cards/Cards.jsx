@@ -1,8 +1,8 @@
 import styles from "/src/components/cards/Cards.module.css";
 import CustomSeparator from "../custom-separator/CustomSeparator";
 import img from "./../../../img/Imagen-consultorio.jpg";
-import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
-
+// import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import { ArrowRight } from "lucide-react";
 export const Cards = () => {
   return (
     <div className={styles.contenedorFondo}>
@@ -19,7 +19,7 @@ export const Cards = () => {
               de punta y tratamientos personalizados para garantizarte los
               mejores resultados
             </p>
-            <button className={styles.boton}>Ver más <MdOutlineKeyboardDoubleArrowRight/></button>
+            <button className={styles.boton}>Ver más <ArrowRight size={20} strokeWidth={1.7}className={styles.icono} /></button>
           </div>
         </div>
         <div className={styles.card}>
@@ -32,7 +32,7 @@ export const Cards = () => {
               utiliza la última tecnología para garantizarte una atención de
               calidad y resultados excepcionales.
             </p>
-            <button className={styles.boton}>Ver más <MdOutlineKeyboardDoubleArrowRight/></button>
+            <button className={styles.boton}>Ver más <ArrowRight size={20} strokeWidth={1.7}className={styles.icono}/></button>
           </div>
           <div className={styles.imagen1}>
             <div>
@@ -57,10 +57,10 @@ export const Cards = () => {
             <p className={styles.texto}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quod eligendi eveniet earum consequuntur dignissimos fugit, provident maiores autem non sit iusto dolorum, error porro veritatis. Eum ea deleniti iusto?Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit quia, ipsam consequatur mollitia quidem, dignissimos pariatur eos reiciendis assumenda ad dolor sint nesciunt ea ullam praesentium laborum sit cumque!
             </p>
-            <button className={styles.boton}>Ver más <MdOutlineKeyboardDoubleArrowRight/></button>
+            <button className={styles.boton}>Ver más <ArrowRight size={20} strokeWidth={1.7} className={styles.icono}/></button>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 };
