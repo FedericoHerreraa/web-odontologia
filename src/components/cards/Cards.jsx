@@ -1,7 +1,6 @@
 import styles from "/src/components/cards/Cards.module.css";
 import CustomSeparator from "../custom-separator/CustomSeparator";
-import img from "./../../../img/Imagen-consultorio.jpg"
-
+import img from "./../../../img/Imagen-consultorio.jpg";
 
 export const Cards = () => {
   return (
@@ -12,7 +11,7 @@ export const Cards = () => {
           <img src={img} alt="imagenConocenos" />
           <div>
             <h3>Conocenos</h3>
-            <p className={styles.texto}> 
+            <p className={styles.texto}>
               Conocé nuestro consultorio, donde la salud y la estética dental se
               unen para brindarte una experiencia única. Nuestro equipo de
               expertos está comprometido con tu bienestar, utilizando tecnología
@@ -41,6 +40,23 @@ export const Cards = () => {
               <p>Odontologia</p>
               <p>Blanqueamiento</p>
             </div>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <div className={styles.imagen1}>
+            <div>
+              <h2>tratamientos</h2>
+              <p>Ortodoncia</p>
+              <p>Odontologia</p>
+              <p>Blanqueamiento</p>
+            </div>
+          </div>
+          <div>
+            <h3>Otro titulo</h3>
+            <p className={styles.texto}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quod eligendi eveniet earum consequuntur dignissimos fugit, provident maiores autem non sit iusto dolorum, error porro veritatis. Eum ea deleniti iusto?Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit quia, ipsam consequatur mollitia quidem, dignissimos pariatur eos reiciendis assumenda ad dolor sint nesciunt ea ullam praesentium laborum sit cumque!
+            </p>
+            <button>Ver más</button>
           </div>
         </div>
       </div>

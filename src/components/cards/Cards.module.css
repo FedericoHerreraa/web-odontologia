@@ -15,7 +15,7 @@
   height: 300px;
   /* background-color: #f2f2f2; */
   /* background-color: white; */
-  background: linear-gradient(rgb(232, 232, 232), white);
+  background: linear-gradient(rgb(208, 220, 238), white);
   padding: 40px;
   border-radius: 10px;
   width: 100%;
@@ -66,7 +66,8 @@
 }
 
 .card div h3 {
-  color: #301277;
+  /* color: #301277; */
+  color: rgb(36, 36, 36);
   font-size: 2em;
   margin-bottom: 10px;
   font-weight: 200;
@@ -83,7 +84,7 @@
 .card div button {
   border: 1px solid #050e44;
   color: black;
-  padding: 10px 20px;
+  padding: 3px 7px;
   border-radius: 50px 50px 50px 50px;
   width: 150px;
   text-decoration: none;
@@ -93,7 +94,9 @@
 }
 
 .card div button:hover {
-  background-color: #0831ad;
+  /* background-color: #354679; */
+  background-color: white;
+  border-color: rgb(132, 132, 132);
 }
 
 

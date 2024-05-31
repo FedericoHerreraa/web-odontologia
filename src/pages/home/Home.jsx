@@ -1,6 +1,7 @@
 import { Cards } from "../../components/cards/Cards";
 import styles from "./Home.module.css"
 import Footer from "../../components/footer/Footer";
+import Comentarios from "../../components/comentarios/Comentarios";
 
 export default function Home() {
   return (
@@ -30,7 +31,8 @@ export default function Home() {
         </div>
         <Cards/>
       </div>
-    
+      <Comentarios/>
+  
       <Footer/>
     </div>
   );
