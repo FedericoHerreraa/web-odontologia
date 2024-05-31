@@ -1,0 +1,57 @@
+/* App.css */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    overflow: hidden;
+    /* background-color: #08023f; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .slick-slide {
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 300px;
+    font-size: larger;
+    /* background-color: rgb(6, 5, 66); */
+  }
+.slick-dots{
+    /* background-color: rgb(6, 5, 66); */
+    padding: 80px;
+}
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: rgb(3, 8, 56); /* Color de los botones de navegación */
+  }
+  
+  .slick-dots li button:before {
+    color: rgb(3, 8, 56); /* Color de los puntos de navegación */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: rgb(3, 8, 56); /* Color del punto activo */
+  }
+  
+  /* Personalización adicional */
+  .slick-slide h3 {
+    /* background: #08023f; */
+    color: rgb(7, 3, 68);
+    padding: 40px 0;
+    margin: 0;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: larger;
+  }
+  
+  .slick-slide p{
+    color: rgb(7, 3, 68);
+  }
+
+  /* .slick-list{
+    background-color: rgb(58, 28, 163);
+  } */
