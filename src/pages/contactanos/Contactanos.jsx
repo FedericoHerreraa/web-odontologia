@@ -18,29 +18,54 @@ export default function Contactanos() {
             <div className={styles.ContForm}>
                 <h1 className={styles.titulo}>Contactanos</h1>
                 <form onSubmit={handleSubmit} className={styles.campoForm}>
-                    <input 
-                        className={styles.inputs}
-                        type="text"
-                        value={nombre}
-                        placeholder="Nombre y Apellido"
-                        onChange={(e) => setNombre(e.target.value)} 
-                    />
-                    <input 
-                        className={styles.inputs}
-                        type="email"
-                        value={email}
-                        placeholder="Correo electrónico"
-                        onChange={(e) => setEmail(e.target.value)} 
-                    />
-                    <input 
-                        className={styles.inputs}
-                        type="text"
-                        value={mensaje}
-                        placeholder="Escriba aquí su mensaje..."
-                        onChange={(e) => setMensaje(e.target.value)} 
-                    />
+                    <div className={styles.section}>
+                        <div>
+                            <input 
+                                className={styles.inputs}
+                                type="text"
+                                value={nombre}
+                                placeholder="Nombre Completo"
+                                onChange={(e) => setNombre(e.target.value)} 
+                            />
+                            <input 
+                                className={styles.inputs}
+                                type="text"
+                                value={nombre}
+                                placeholder="Asunto"
+                                onChange={(e) => setNombre(e.target.value)} 
+                            />
+                        </div>
+                        <div >
+                            <input 
+                                className={styles.inputs}
+                                type="email"
+                                value={email}
+                                placeholder="Correo electrónico"
+                                onChange={(e) => setEmail(e.target.value)} 
+                            />
+                            <input 
+                                className={styles.inputs}
+                                type="email"
+                                value={email}
+                                placeholder="Teléfono Celular"
+                                onChange={(e) => setEmail(e.target.value)} 
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <input 
+                            className={styles.txt}
+                            type="text"
+                            value={mensaje}
+                            placeholder="Escriba aquí su mensaje..."
+                            onChange={(e) => setMensaje(e.target.value)} 
+                        />
+                    </div>
                     <input className={styles.enviar} type="submit"/>
                 </form>
+            </div>
+            <div className={styles.contEncontranos}>
+                <h1>Encontranos</h1>
             </div>
         </div>
         

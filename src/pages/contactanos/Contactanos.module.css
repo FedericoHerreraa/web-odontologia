@@ -1,24 +1,46 @@
 .contenedor{
     height: 600px;
-    background-image: url('/img/Contacto.jpg');
-    background-size: cover;
+    padding: 50px;
+    background-image: url('./../../../img/Fondo_contactanos.png');
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .ContForm{
-    width: 50%;
-    height: 450px;
-    background-color: rgb(31, 31, 165);
-    opacity: 0.7;
+    width: 70%;
+    height: 550px;
+    background-color: rgb(232, 232, 236);
     text-align: center;
+}
+.contEncontranos{
+    width: 30%;
+    background-color: rgb(232, 232, 236);
 }
 
 .titulo{
-    color: white;
+    color: rgb(19, 10, 51);
     margin-top: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+.section{
+    display: flex;
+}
+
+.txt{
+    border: none; 
+    border-bottom: 2px solid white;
+    border-radius: 3px;
+    background-color: transparent; 
+    outline: none; 
+    width: 700px;
+    height: 80px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 1rem;
 }
 
 .campoForm{
@@ -31,23 +53,23 @@
 .inputs{
     border: none; 
     border-bottom: 2px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: transparent; 
     outline: none; 
     width: 80%;
     height: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     color: white;
     font-size: 1rem;
 }
 
 .enviar{
     border: none; 
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(25, 4, 59);
     border-radius: 5px;
     background-color: transparent; 
     outline: none; 
-    color: white;
+    color: rgb(14, 7, 77);
     height: 35px;
     width: 100px;
 }
