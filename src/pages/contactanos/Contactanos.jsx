@@ -5,6 +5,8 @@ export default function Contactanos() {
     const [nombre, setNombre] = useState('')
     const [email, setEmail] = useState('')
     const [mensaje, setMensaje] = useState('')
+    const [asunto, setAsunto] = useState('')
+    const [telefono, setTelefono] = useState('')
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -30,9 +32,9 @@ export default function Contactanos() {
                             <input 
                                 className={styles.inputs}
                                 type="text"
-                                value={nombre}
+                                value={asunto}
                                 placeholder="Asunto"
-                                onChange={(e) => setNombre(e.target.value)} 
+                                onChange={(e) => setAsunto(e.target.value)} 
                             />
                         </div>
                         <div >
@@ -45,10 +47,10 @@ export default function Contactanos() {
                             />
                             <input 
                                 className={styles.inputs}
-                                type="email"
-                                value={email}
+                                type="text"
+                                value={telefono}
                                 placeholder="Teléfono Celular"
-                                onChange={(e) => setEmail(e.target.value)} 
+                                onChange={(e) => setTelefono(e.target.value)} 
                             />
                         </div>
                     </div>
