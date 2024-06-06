@@ -8,8 +8,11 @@
     gap: 20px;
     /* margin: 50px 0; */
     padding: 50px 0;
+    margin: 100px 0px;
 }
 
 .container hr {
-    width: 18%;
+    width: 30%;
+    background-color: rgb(84, 130, 214);
+    height: 3px;
 }

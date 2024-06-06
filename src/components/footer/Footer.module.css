@@ -40,19 +40,21 @@
 .footerText {
   color: white;
   font-size: 0.9em;
-  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
 }
+
 .footerText img {
   width: 300px;
 }
 
 .footerBottom {
-  color: black;
+  color: rgb(161, 161, 161);
   text-align: center;
   justify-content: center;
   font-size: 0.8em;
   margin-top: 20px;
-  background-color: white;
+  background-color: rgb(18, 18, 61);
   width: 100vw;
   padding: 10px;
 }
