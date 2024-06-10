@@ -40,8 +40,10 @@
 .footerText {
   color: white;
   font-size: 0.9em;
-  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
 }
+
 .footerText img {
   width: 300px;
 }

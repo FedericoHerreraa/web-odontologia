@@ -1,8 +1,9 @@
-
+  
 
 .infoImg {
   min-height: 200vh;
   background-image: url(/img/Fondo.png);
+  opacity: 0.9;
   background-blend-mode:darken;
   background-size: cover;
   display: flex;
@@ -37,7 +38,7 @@
   padding: 30px;
   border-radius: 20px;
   font-size: 15px;
-  background-color: rgb(86, 86, 137);
+  background-color: rgb(47, 47, 104);
   overflow-x: hidden;
 }
 

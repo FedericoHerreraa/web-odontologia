@@ -26,9 +26,9 @@ export default function Header() {
           </Link>
         </div>
         <div className={styles.redes}>
-          <WhatsAppIcon fontSize="medium" />
-          <MailOutlineIcon fontSize="medium" />
-          <InstagramIcon fontSize="medium" />
+          <WhatsAppIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>
+          <MailOutlineIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>
+          <InstagramIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>
         </div>
       </header>
   );
