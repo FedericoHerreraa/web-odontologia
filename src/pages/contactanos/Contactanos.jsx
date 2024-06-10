@@ -1,5 +1,9 @@
 import { useState } from "react"
 import styles from "./Contactanos.module.css"
+import InstagramIcon from "@mui/icons-material/Instagram";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import img from './../../../img/image.png'
 
 export default function Contactanos() {
     const [nombre, setNombre] = useState('')
@@ -67,7 +71,18 @@ export default function Contactanos() {
                 </form>
             </div>
             <div className={styles.contEncontranos}>
-                <h1>Encontranos</h1>
+                <div>
+                    <h2>Encontranos</h2>
+                    <img src={img} alt="" />
+                </div>
+                <div className={styles.redes}>
+                    <ul>
+                        <li><InstagramIcon/> Instagram</li>
+                        <li> <WhatsAppIcon/>  WhatsApp</li>
+                        <li><MailOutlineIcon/> Mail</li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
         
