@@ -9,14 +9,31 @@
 }
 
 .ContForm{
-    width: 70%;
+    width: 65%;
     height: 550px;
     background-color: rgb(232, 232, 236);
     text-align: center;
 }
 .contEncontranos{
-    width: 30%;
+    width: 35%;
+    height: 550px;
     background-color: rgb(232, 232, 236);
+    text-align: center;
+    border-left: 2px solid white;
+    padding-left: 30px;
+}
+
+.contEncontranos h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 2.3em;
+    
+}
+
+.redes{
+    text-align: left;
+    padding: 20px;
+    margin-top: 30px;
 }
 
 .titulo{

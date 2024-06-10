@@ -5,7 +5,7 @@ export default function CustomSeparator() {
     return (
         <div className={styles.container}>
             <hr />
-            <img src={img} alt="" style={{ width: '80px', borderRadius: '10px'}} />
+            <img src={img} alt="" className={styles.logo} />
             <hr />
         </div>
     )
