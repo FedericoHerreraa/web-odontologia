@@ -1,5 +1,6 @@
 import { useState } from "react"
 import styles from "./Contactanos.module.css"
+import img from './../../../img/image.png'
 
 export default function Contactanos() {
     const [nombre, setNombre] = useState('')
@@ -67,7 +68,8 @@ export default function Contactanos() {
                 </form>
             </div>
             <div className={styles.contEncontranos}>
-                <h1>Encontranos</h1>
+                <h2>Encontranos</h2>
+                <img src={img} alt="" />
             </div>
         </div>
         
