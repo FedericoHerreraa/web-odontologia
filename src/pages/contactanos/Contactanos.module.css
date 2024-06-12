@@ -1,5 +1,5 @@
 .contenedor{
-    height: 600px;
+    height: 700px;
     padding: 50px;
     background-image: url('./../../../img/Fondo_contactanos.png');
     background-size: contain;
@@ -23,17 +23,18 @@
     padding-left: 30px;
 }
 
-.contEncontranos h2{
+
+.contenedorUbicacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
-    margin-bottom: 20px;
     font-size: 2.3em;
-    
 }
 
 .redes{
-    text-align: left;
-    padding: 20px;
-    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
 }
 
 .titulo{
@@ -41,6 +42,13 @@
     margin-top: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h1{
+    padding-right: 30px;
 }
 
 .section{

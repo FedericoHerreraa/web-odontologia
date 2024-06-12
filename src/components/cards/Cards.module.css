@@ -31,18 +31,6 @@
 }
 
 
-.imagen1 {
-  background-image: url("./../../../img/imagen-tratamiento.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  position: relative;
-}
-
-
-
-
-
 .card div{
   padding: 20px;
   display: flex;

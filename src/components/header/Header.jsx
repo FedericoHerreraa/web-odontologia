@@ -4,28 +4,41 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import img from './../../../img/LOGO.jpg'
+import { useState } from "react";
 
 export default function Header() {
+  const [fix, setFix] = useState(false)
+
+  function setFixedSideBar(){
+    if (window.scrollY >= 300){
+      setFix(true)
+    } else{
+      setFix(false)
+    }
+
+  }
+
+  window.addEventListener("scroll", setFixedSideBar)
   return (
-      <header className={styles.header}>
+      <header className={fix ? styles.headerfixed : styles.header}>
         <div className={styles.telefono}>
           <img src={img} className={styles.logo} alt="" />
         </div>
         <div className={styles.navegacion}>
-          <Link className={styles.link} to="/">
+          <Link className={fix ? styles.linkfixed : styles.link} to="/">
             Inicio
           </Link>
-          <Link className={styles.link} to="/nuestrosServicios">
+          <Link className={fix ? styles.linkfixed : styles.link} to="/nuestrosServicios">
             Nuestros servicios
           </Link>
-          <Link className={styles.link} to="/sobreNosotros">
+          <Link className={fix ? styles.linkfixed : styles.link} to="/sobreNosotros">
             Sobre nosotros
           </Link>
-          <Link className={styles.link} to="/contactanos">
+          <Link className={fix ? styles.linkfixed : styles.link} to="/contactanos">
             Contactanos
           </Link>
         </div>
-        <div className={styles.redes}>
+        <div className={fix ? styles.redesfixed : styles.redes}>
           <WhatsAppIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>
           <MailOutlineIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>
           <InstagramIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>

@@ -10,8 +10,6 @@
 
 .header {
   display: flex;
-  /* background-color: rgb(35, 27, 93); */
-  /* background-color: rgb(3, 3, 68); */
   background-color: rgb(18, 18, 61);
   justify-content: space-between;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -23,10 +21,32 @@
   top: 0px;
   position: sticky;
   z-index: 100;
+  transition: all 0.3s;
+}
+
+.headerfixed{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  align-items: center;
+  padding: 10px 30px;
+  font-size: 18px;
+  height: 60px;
+  top: 0px;
+  position: sticky;
+  z-index: 100;
 }
 
 .redes {
   color: white;
+  display: flex;
+  gap: 30px;
+  padding: 0px 20px;
+}
+
+.redesfixed{
+  color: rgb(18, 18, 61);
   display: flex;
   gap: 30px;
   padding: 0px 20px;
@@ -44,6 +64,17 @@
   color: rgb(243, 245, 248);
 }
 
+.linkfixed{
+  transition: all 0.2s;
+  text-decoration: none;
+  font-weight: 100;
+  color: rgb(5, 29, 65);
+}
+
 .link:hover {
+  scale: 1.1;
+}
+
+.linkfixed:hover{
   scale: 1.1;
 }

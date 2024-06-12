@@ -2,6 +2,7 @@ import styles from "/src/components/cards/Cards.module.css";
 import CustomSeparator from "../custom-separator/CustomSeparator";
 import img from "./../../../img/Imagen-consultorio.jpg";
 import img2 from './../../../img/relleno.jpg'
+import img3 from './../../../img/imagen-tratamiento.jpg'
 import { ArrowRight } from "lucide-react";
 export const Cards = () => {
   return (
@@ -34,9 +35,7 @@ export const Cards = () => {
             </p>
             <button className={styles.boton}>Ver más <ArrowRight size={20} strokeWidth={1.7}className={styles.icono}/></button>
           </div>
-          <div className={styles.imagen1}>
-          
-          </div>
+          <img src={img3} alt="" />
         </div>
         <div className={styles.card}>
           <img src={img2} alt="" />

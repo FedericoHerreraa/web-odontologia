@@ -33,14 +33,13 @@
 
 .containerSlider {
   width: 70%;
-  /* box-shadow: 0 14px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06); */
   padding: 30px;
   border-radius: 20px;
   font-size: 15px;
-  background-color: rgb(47, 47, 104);
+  background-color: rgb(4, 4, 43);
   overflow-x: hidden;
 }
+
 
 .especialidades {
   display: flex;
