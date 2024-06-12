@@ -4,14 +4,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 30px;
+    border-top: 1px solid rgb(183, 183, 183);
+    margin: 50px 40px;
 }
 
 .titulo {
-    font-size: 2em;
+    font-size: 50px;
     margin-bottom: 20px;
     margin: 30px;
     color: rgb(7, 3, 68);
-    font-size: xx-large;
-
 }

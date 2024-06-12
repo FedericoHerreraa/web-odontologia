@@ -30,6 +30,7 @@ const SimpleSlider = () => {
   return (
     <div style={{ width: '80%', margin: '20px auto'}}>
       <Carousel
+        style={{ boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.2)", padding: '20px', borderRadius: '10px'}}
         opts={{
           align: "start",
           loop: true,

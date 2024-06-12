@@ -1,65 +1,75 @@
 .container {
-    background-image: url('./../../../img/FondoConocenos.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  
-  .title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .title h1 {
-    font-size: 2.5em;
-    color: #001f3f;
-  }
-  
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .cardContainer {
-    flex: 1 1 calc(50% - 20px);
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  
-  .item {
-    text-align: left;
-  }
-  
-  .item h2 {
-    font-size: 1.5em;
-    color: #001f3f;
-    margin-bottom: 10px;
-  }
-  
-  .item p {
-    font-size: 1.2em;
-    color: #555;
-  }
-  
-  .valuesGrid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .valueCard {
-    flex: 1 1 calc(33.333% - 10px);
-    background: #e0eafc;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 1em;
-    color: #001f3f;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 10px;
-  }
-  
+  background-image: url("./../../../img/FondoConocenos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  font-size: 2.5em;
+  color: #001f3f;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cardContainer {
+  flex: 1 1 calc(50% - 20px);
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+  text-align: left;
+}
+
+.item h2 {
+  font-size: 1.5em;
+  color: #001f3f;
+  margin-bottom: 10px;
+}
+
+.item p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.valuesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.valueCard {
+  flex: 1 1 calc(33.333% - 10px);
+  background: #e0eafc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1em;
+  color: #001f3f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.containerOpiniones {
+  height: 80vh;
+  margin-top: 100px;
+}
+
+.containerOpiniones h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}

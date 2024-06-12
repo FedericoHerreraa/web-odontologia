@@ -48,7 +48,10 @@ export default function SobreNosotros() {
                     </div>
                 </div>
             </div>
-            <AccordionDemo/>
+            <div className={styles.containerOpiniones}>
+                <h1>Preguntas frequentes</h1>
+                <AccordionDemo/>
+            </div>
         </div>
     );
 }
