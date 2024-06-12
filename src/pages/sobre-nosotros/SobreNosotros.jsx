@@ -1,6 +1,7 @@
 
 import { AccordionDemo } from '@/components/preguntas/Preguntas';
 import styles from './SobreNosotros.module.css';
+import Footer from '@/components/footer/Footer';
 
 export default function SobreNosotros() {
     return (
@@ -32,7 +33,6 @@ export default function SobreNosotros() {
                             <div className={styles.valueCard}>Excelencia</div>
                             <div className={styles.valueCard}>Integridad</div>
                             <div className={styles.valueCard}>Compasión</div>
-                            <div className={styles.valueCard}>Innovación</div>
                             <div className={styles.valueCard}>Educación</div>
                             <div className={styles.valueCard}>Colaboración</div>
                             <div className={styles.valueCard}>Responsabilidad</div>
@@ -49,9 +49,10 @@ export default function SobreNosotros() {
                 </div>
             </div>
             <div className={styles.containerOpiniones}>
-                <h1>Preguntas frequentes</h1>
+                <h2>Preguntas frecuentes</h2>
                 <AccordionDemo/>
             </div>
+            <Footer/>
         </div>
     );
 }

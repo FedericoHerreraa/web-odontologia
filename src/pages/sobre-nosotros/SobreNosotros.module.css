@@ -3,12 +3,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .title {
   text-align: center;
   margin-bottom: 20px;
+  
+
 }
 
 .title h1 {
@@ -24,10 +25,10 @@
 
 .cardContainer {
   flex: 1 1 calc(50% - 20px);
-  background: #fff;
+  background: #807e8a33;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(8, 3, 75, 0.39);
 }
 
 .item {
@@ -36,13 +37,16 @@
 
 .item h2 {
   font-size: 1.5em;
-  color: #001f3f;
+  color: #06325e;
+  display: flex;
+  justify-content: center;
   margin-bottom: 10px;
 }
 
 .item p {
   font-size: 1.2em;
-  color: #555;
+  color: #070125;
+  text-align: center;
 }
 
 .valuesGrid {
@@ -64,12 +68,12 @@
 }
 
 .containerOpiniones {
-  height: 80vh;
-  margin-top: 100px;
+  height: 70vh;
+  margin-top: 60px;
 }
 
-.containerOpiniones h1 {
-  font-size: 3rem;
+.containerOpiniones h2 {
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 30px;
 }
