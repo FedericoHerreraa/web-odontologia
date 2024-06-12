@@ -1,4 +1,5 @@
 
+import { AccordionDemo } from '@/components/preguntas/Preguntas';
 import styles from './SobreNosotros.module.css';
 
 export default function SobreNosotros() {
@@ -47,7 +48,7 @@ export default function SobreNosotros() {
                     </div>
                 </div>
             </div>
-            
+            <AccordionDemo/>
         </div>
     );
 }
