@@ -13,15 +13,19 @@
 }
 
 .infoImg h1 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text ;
+	background: linear-gradient(90deg,#3B82F6 0%,#243665 100%) text;
+	-webkit-text-fill-color:  transparent;
   font-size: 70px;
-  color: rgb(3, 3, 68);
   font-weight: 200;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
 }
 
 .descripcion {
   font-size: 18px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .descContainer {

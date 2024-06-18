@@ -37,7 +37,7 @@ export const Cards = () => {
           </div>
           <img src={img3} alt="" />
         </div>
-        <div className={styles.card}>
+        {/* <div className={styles.card}>
           <img src={img2} alt="" />
           <div>
             <h3>Otro titulo</h3>
@@ -46,7 +46,7 @@ export const Cards = () => {
             </p>
             <button className={styles.boton}>Ver más <ArrowRight size={20} strokeWidth={1.7} className={styles.icono}/></button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

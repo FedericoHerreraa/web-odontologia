@@ -1,12 +1,12 @@
 import styles from './Footer.module.css'
 import Iframe from 'react-iframe'
-import imgLogo from './../../../img/LOGO.jpg'
+import imgLogo from './../../../img/ChristianSaad-07.png'
 
 export default function Footer() {
   return (
     <footer className={styles.footerContainer}>
       <div className={styles.footerLogo}>
-        <img alt="Logo" src={imgLogo}/>
+        <img alt="Logo" src={imgLogo} style={{width: 300, marginLeft: 30}}/>
       </div>
       <div className={styles.footerSection}>
         <h3 className={styles.footerTitle}>Consultorio Dr. Christian Saad</h3>

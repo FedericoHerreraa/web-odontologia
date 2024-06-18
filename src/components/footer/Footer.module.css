@@ -62,9 +62,9 @@
 .footerLink {
   color: white;
   text-decoration: none;
-  
+  transition: all 0.3s;
 }
 
 .footerLink:hover {
-  font-size: 1.1em;
+  text-decoration: underline;
 }

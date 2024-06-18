@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import img from './../../../img/LOGO.jpg'
+import img from './../../../img/ChristianSaad-07.png'
+import imgfixed from './../../../img/ChristianSaad-02.png'
 import { useState } from "react";
 
 export default function Header() {
@@ -22,7 +23,7 @@ export default function Header() {
   return (
       <header className={fix ? styles.headerfixed : styles.header}>
         <div className={styles.telefono}>
-          <img src={img} className={styles.logo} alt="" />
+          <img src={ fix ? imgfixed : img} className={styles.logo} alt="" />
         </div>
         <div className={styles.navegacion}>
           <Link className={fix ? styles.linkfixed : styles.link} to="/">

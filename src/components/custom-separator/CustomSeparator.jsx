@@ -1,5 +1,5 @@
 import styles from './CustomSeparator.module.css';
-import img from './../../../img/LOGO.jpg'
+import img from './../../../img/ChristianSaad-15.png'
 
 export default function CustomSeparator() {
     return (

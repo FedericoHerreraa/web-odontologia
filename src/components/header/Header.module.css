@@ -36,9 +36,11 @@
   top: 0px;
   position: sticky;
   z-index: 100;
+  transition: all 0.2s;
 }
 
 .redes {
+  transition: all 0.2s;
   color: white;
   display: flex;
   gap: 30px;
@@ -46,6 +48,7 @@
 }
 
 .redesfixed{
+  transition: all 0.2s;
   color: rgb(18, 18, 61);
   display: flex;
   gap: 30px;

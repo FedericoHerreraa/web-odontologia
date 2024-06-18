@@ -2,12 +2,14 @@
 import { AccordionDemo } from '@/components/preguntas/Preguntas';
 import styles from './SobreNosotros.module.css';
 import Footer from '@/components/footer/Footer';
+import CustomSeparator from '@/components/custom-separator/CustomSeparator';
 
 export default function SobreNosotros() {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
                 <h1>Conócenos</h1>
+                <CustomSeparator/>
             </div>
             <div className={styles.grid}>
                 <div className={styles.cardContainer}>
