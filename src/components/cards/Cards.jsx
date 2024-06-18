@@ -1,7 +1,6 @@
 import styles from "/src/components/cards/Cards.module.css";
 import CustomSeparator from "../custom-separator/CustomSeparator";
 import img from "./../../../img/Imagen-consultorio.jpg";
-import img2 from './../../../img/relleno.jpg'
 import img3 from './../../../img/imagen-tratamiento.jpg'
 import { ArrowRight } from "lucide-react";
 export const Cards = () => {
