@@ -13,11 +13,14 @@
 
 .title h1 {
   font-size: 3em;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   color: #001f3f;
   display: inline-block;
 }
 
+.title div{
+  margin-bottom: 20px;
+}
 
 .grid {
   display: grid;
@@ -42,6 +45,7 @@
 .cardContainer:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .icono {

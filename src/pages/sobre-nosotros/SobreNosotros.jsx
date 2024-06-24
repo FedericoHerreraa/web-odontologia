@@ -12,9 +12,12 @@ export default function SobreNosotros() {
             <div className={styles.container}>
                 <div className={styles.title}>
                     <h1>Conócenos</h1>
-                    <p>El fin de este apartado es que nos conozcas un poco mejor: sobre cual es nuestra visión, nuestros valores, la visión que tenemos y la misión que buscamos! </p>
-                    <p>Además encontrarás preguntas frecuentes con sus repuestas.</p>
                     <CustomSeparator/>
+                    <div>
+                        <p>El fin de este apartado es que nos conozcas un poco mejor. </p>
+                        <p>Además encontrarás preguntas frecuentes con sus repuestas.</p>
+                    </div>
+                    
                 </div>
                 <div className={styles.grid}>
                     <div className={styles.cardContainer}>
