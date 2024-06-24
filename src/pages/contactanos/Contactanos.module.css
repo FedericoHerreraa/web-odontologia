@@ -6,21 +6,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .ContForm{
     width: 65%;
     height: 550px;
-    background-color: rgb(232, 232, 236);
+    background-color: rgba(230, 230, 231, 0.76);
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .contEncontranos{
     width: 35%;
     height: 550px;
-    background-color: rgb(232, 232, 236);
+    background-color: rgba(230, 230, 231, 0.76);
     text-align:center;
     border-left: 2px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding-left: 30px;
+    
 }
 
 
@@ -30,6 +34,7 @@
     justify-content: center;
     margin-top: 50px;
     font-size: 2.3em;
+    
 }
 
 .redes{
