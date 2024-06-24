@@ -6,9 +6,23 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import img from './../../../img/ChristianSaad-07.png'
 import imgfixed from './../../../img/ChristianSaad-02.png'
 import { useState } from "react";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog"
+
 
 export default function Header() {
   const [fix, setFix] = useState(false)
+  const phoneNumber = 541122758931;
+  const encodedMessage = "hol, quisiera hacer una consulta";
 
   function setFixedSideBar(){
     if (window.scrollY >= 300){
@@ -18,6 +32,7 @@ export default function Header() {
     }
 
   }
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`
 
   window.addEventListener("scroll", setFixedSideBar)
   return (
@@ -40,7 +55,24 @@ export default function Header() {
           </Link>
         </div>
         <div className={fix ? styles.redesfixed : styles.redes}>
-          <WhatsAppIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>
+          <AlertDialog>
+            <AlertDialogTrigger><WhatsAppIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/></AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                    <AlertDialogTitle ><WhatsAppIcon style={{ fontSize: 60, display:"flex", alignItems:"center"}} /></AlertDialogTitle>
+                    <AlertDialogDescription>
+                      
+                      Esta acción te redireccionará a WhatsApp, ¿Estás seguro/a?
+                    </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                    <AlertDialogCancel>Cancelar</AlertDialogCancel>
+                    <AlertDialogAction><a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                        Abrir WhatsApp
+                    </a></AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+          </AlertDialog>
           <MailOutlineIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>
           <InstagramIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>
         </div>
