@@ -12,14 +12,14 @@
 .ContForm{
     width: 65%;
     height: 550px;
-    background-color: rgba(230, 230, 231, 0.76);
+    background-color: rgba(9, 9, 83, 0.541);
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .contEncontranos{
     width: 35%;
     height: 550px;
-    background-color: rgba(230, 230, 231, 0.76);
+    background-color: rgba(9, 9, 83, 0.541);
     text-align:center;
     border-left: 2px solid white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -34,16 +34,17 @@
     justify-content: center;
     margin-top: 50px;
     font-size: 2.3em;
-    
+    color: white;
 }
 
 .redes{
     text-align: left;
     padding: 10px;
+    color: white;
 }
 
 .titulo{
-    color: rgb(19, 10, 51);
+    color: white;
     margin-top: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3em;
@@ -69,7 +70,7 @@
     width: 700px;
     height: 80px;
     margin-bottom: 40px;
-    color: rgb(21, 4, 61);
+    color: white;
     font-size: 1rem;
 }
 
@@ -89,24 +90,32 @@
     width: 80%;
     height: 45px;
     margin-bottom: 40px;
-    color: rgb(23, 5, 65);
+    color: white;
     font-size: 1rem;
 }
 
 .enviar{
     border: none; 
-    border-bottom: 2px solid rgb(25, 4, 59);
+    border-bottom: 2px solid rgb(255, 255, 255);
     border-radius: 5px;
     background-color: transparent; 
     outline: none; 
-    color: rgb(14, 7, 77);
+    color: white;
     height: 35px;
     width: 100px;
     transition: all 0.5s;
 }
 
 .enviar:hover{
-    background-color: rgb(6, 6, 77);
-    color: white;
+    background-color: white;
+    color: rgb(6, 6, 77);
     cursor: pointer;
+}
+
+.inputs::placeholder{
+    color: white;
+}
+
+.txt::placeholder{
+    color: white;
 }

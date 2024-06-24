@@ -1,10 +1,9 @@
 
 .container {
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     text-align: center;
-    border-top: 1px solid rgb(183, 183, 183);
     margin: 50px 40px;
 }
 

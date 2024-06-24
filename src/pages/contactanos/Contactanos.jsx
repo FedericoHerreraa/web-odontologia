@@ -7,6 +7,7 @@ import { CiPaperplane } from "react-icons/ci";
 import PinDropIcon from '@mui/icons-material/PinDrop';
 import Iframe from 'react-iframe'
 import Footer from "@/components/footer/Footer";
+import ScrollToTop from "@/components/scroll/ScrollToTop";
 
 // import img from "./../../../img/image.png";
 
@@ -26,6 +27,7 @@ export default function Contactanos() {
 
   return (
     <>
+      <ScrollToTop/>
       <div className={styles.contenedor}>
         <div className={styles.ContForm}>
           <div className={styles.titulo}>
@@ -91,20 +93,23 @@ export default function Contactanos() {
             className=""
             display="block"
             position="relative"/>
-            
-            {/* <img src={img} alt="" /> */}
+    
           </div>
           <div className={styles.redes}>
             <ul>
               <li>
-                <InstagramIcon /> Instagram
+                <InstagramIcon /> 
+                <a href="https://www.instagram.com/dr.christiansaad?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Dr.ChristianSaad</a>
+                
               </li>
               <li>
                 {" "}
-                <WhatsAppIcon /> WhatsApp
+                <WhatsAppIcon /> 
+                +54 1122223333
               </li>
               <li>
-                <MailOutlineIcon /> Mail
+                <MailOutlineIcon /> 
+                ChristianSaad@gmail.com
               </li>
             </ul>
           </div>

@@ -10,7 +10,7 @@ export function AccordionDemo() {
     <Accordion
       type="single"
       collapsible
-      className="w-[60%] flex flex-col justify-center mx-auto bg-slate-50 p-10 rounded-lg shadow-md"
+      className="w-[80%] flex flex-col justify-center mx-auto bg-slate-50 p-10 rounded-lg shadow-md"
     >
       <AccordionItem value="item-1">
         <AccordionTrigger>

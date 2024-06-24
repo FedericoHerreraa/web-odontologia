@@ -1,7 +1,7 @@
 import styles from './Footer.module.css'
 import Iframe from 'react-iframe'
 import imgLogo from './../../../img/ChristianSaad-07.png'
-
+import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <footer className={styles.footerContainer}>
@@ -11,12 +11,10 @@ export default function Footer() {
       <div className={styles.footerSection}>
         <h3 className={styles.footerTitle}>Consultorio Dr. Christian Saad</h3>
         <p className={styles.footerText}>
-          <a href="#" className={styles.footerLink}>Conocé el consultorio</a><br />
-          <a href="#" className={styles.footerLink}>Inicio</a><br />
-          <a href="#" className={styles.footerLink}>Sobre nosotros</a><br />
-          <a href="#" className={styles.footerLink}>Nuestros Servicios</a><br />
-          <a href="#" className={styles.footerLink}>Contactanos</a><br />
-          <a href="#" className={styles.footerLink}>Trabaja con Nosotros</a><br />
+          <Link to="/" className={styles.footerLink}>Inicio</Link><br/>
+          <Link to="/sobreNosotros" className={styles.footerLink}>Sobre Nosotros</Link><br/>
+          <Link to="/nuestrosServicios" className={styles.footerLink}>Nuestros Servicios</Link><br/>
+          <Link to="/contactanos" className={styles.footerLink}>Contactanos</Link><br/>
         </p>
       </div>
       <div className={styles.footerSection}>

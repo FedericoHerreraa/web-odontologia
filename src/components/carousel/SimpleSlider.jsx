@@ -1,7 +1,4 @@
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-// import Slider from "react-slick";
-// import styles from './SimpleSlider.css'
+
 import { IoMdStar } from "react-icons/io";
 import {
   Carousel,
@@ -44,7 +41,6 @@ const SimpleSlider = () => {
         <CarouselContent>
           <CarouselItem >
             {stars()}
-            {/* <div className={styles.estrellas}><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /></div> */}
             Fui a este consultorio para un tratamiento de ortodoncia y no puedo
             estar más contenta con los resultados. Desde la primera consulta, el
             doctor fue muy claro sobre lo que esperaba y me explicó todo el

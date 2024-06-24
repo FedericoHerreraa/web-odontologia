@@ -2,14 +2,18 @@ import Footer from '@/components/footer/Footer';
 import styles from './NuestrosServicios.module.css';
 import { FaTeeth, FaTooth, FaTeethOpen } from 'react-icons/fa';
 import CustomSeparator from '@/components/custom-separator/CustomSeparator';
+import ScrollToTop from '@/components/scroll/ScrollToTop';
 
 export default function NuestrosServicios() {
     return (
         <>
+            <ScrollToTop/>
             <div>
                 <div className={styles.container}>
                     <div className={styles.title}>
                         <h1>Tratamientos</h1>
+                        <p>En este apartado se encuentran todos los servicios que ofrecemos en nuestro consultorio</p>
+                        <p>Si necesita mas información sobre alguno de estos tratamientos, ¡No dude en consultarnos!</p>
                         <CustomSeparator/>
                     </div>
                     <div className={styles.grid}>
