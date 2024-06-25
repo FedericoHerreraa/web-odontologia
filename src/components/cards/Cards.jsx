@@ -1,6 +1,6 @@
 import styles from "/src/components/cards/Cards.module.css";
 import CustomSeparator from "../custom-separator/CustomSeparator";
-import img from "./../../../img/Imagen-consultorio.jpg";
+import img from "./../../../img/Imagen-consultorio.png";
 import img3 from './../../../img/imagen-tratamiento.jpg'
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
