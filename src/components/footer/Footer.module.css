@@ -68,3 +68,22 @@
 .footerLink:hover {
   text-decoration: underline;
 }
+
+@media  screen and (width <= 758px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    flex-wrap: wrap;
+  }
+  .footerSection{
+    display: flex;
+    flex-direction: column;
+  }
+  .footerBottom{
+    display: flex;
+    width: 100%;
+  }
+  
+}

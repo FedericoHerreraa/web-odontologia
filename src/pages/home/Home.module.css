@@ -12,16 +12,7 @@
   align-items: center;
 }
 
-.infoImg h1 {
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text ;
-	background: linear-gradient(90deg,#3B82F6 0%,#243665 100%) text;
-	-webkit-text-fill-color:  transparent;
-  font-size: 70px;
-  font-weight: 200;
-  margin-bottom: 20px; 
-}
+
 
 .descripcion {
   font-size: 18px;
@@ -65,4 +56,19 @@
   100% {
     transform: translateX(-50%); /* Se desplaza completamente a la izquierda */
   }
+}
+
+@media  screen and (width <= 758px) {
+
+  .infoImg{
+    padding: 40px;
+    width: 100%;
+  }
+  .containerSlider{
+    font-size: 10px;
+    height: 70px;
+    text-align: center;
+
+  }
+  
 }
