@@ -2,8 +2,8 @@
   background-image: url("./../../../img/FondoConocenos.png");
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px;
   padding: 0px 30px;
+  width: 93%;
 }
 
 .title {
@@ -31,9 +31,9 @@
 
 .cardContainer {
   flex: 1 1 calc(50% - 20px);
-  background: #c3cce4c4;
+  background: #f4f5faee;
   padding: 20px;
-  /* border-radius: 10px; */
+  border-radius: 10px;
   box-shadow: 0 4px 6px rgba(43, 38, 114, 0.39);
 }
 
@@ -43,7 +43,7 @@
 
 .item h2 {
   font-size: 1.5em;
-  color: #06325e;
+  color: #00173A;
   display: flex;
   justify-content: center;
   margin-bottom: 10px;

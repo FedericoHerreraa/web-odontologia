@@ -12,8 +12,6 @@ import {
   AlertDialogCancel,
   AlertDialogContent,
   AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
@@ -57,21 +55,21 @@ export default function Header() {
         <div className={fix ? styles.redesfixed : styles.redes}>
           <AlertDialog>
             <AlertDialogTrigger><WhatsAppIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/></AlertDialogTrigger>
-              <AlertDialogContent>
-                <AlertDialogHeader>
-                    <AlertDialogTitle ><WhatsAppIcon style={{ fontSize: 60, display:"flex", alignItems:"center"}} /></AlertDialogTitle>
-                    <AlertDialogDescription>
-                      
-                      Esta acción te redireccionará a WhatsApp, ¿Estás seguro/a?
-                    </AlertDialogDescription>
-                </AlertDialogHeader>
-                <AlertDialogFooter>
-                    <AlertDialogCancel>Cancelar</AlertDialogCancel>
-                    <AlertDialogAction><a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+            <AlertDialogContent className="p-6 bg-white rounded-lg shadow-lg max-w-3xl mx-auto">
+              <div className="flex items-center justify-center mb-4">
+                <WhatsAppIcon className="text-customBlue" style={{ fontSize: '3rem' }} />
+              </div>
+              <AlertDialogTitle className="text-2xl font-bold text-customBlue text-center mb-4">WhatsApp</AlertDialogTitle>
+              <AlertDialogDescription className="text-lg text-center mb-4">
+                Esta acción te redireccionará a WhatsApp, ¿Estás seguro/a?
+              </AlertDialogDescription>
+              <div className="flex justify-center space-x-4">
+                <AlertDialogCancel className="px-6 py-2 bg-gray-200 text-gray-700 rounded-md">Cancelar</AlertDialogCancel>
+                <AlertDialogAction className="px-6 py-2 bg-customBlue text-white rounded-md" ><a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                         Abrir WhatsApp
                     </a></AlertDialogAction>
-                </AlertDialogFooter>
-              </AlertDialogContent>
+              </div>
+            </AlertDialogContent>
           </AlertDialog>
           <MailOutlineIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>
           <InstagramIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }}/>

@@ -7,7 +7,7 @@ import ScrollToTop from '@/components/scroll/ScrollToTop';
 
 export default function SobreNosotros() {
     return (
-        <>
+        <div style={{display: 'flex', flexDirection: "column", justifyContent: "center", alignItems: 'center'}}>
             <ScrollToTop/>
             <div className={styles.container}>
                 <div className={styles.title}>
@@ -65,6 +65,6 @@ export default function SobreNosotros() {
                 
             </div>
             <Footer/>
-        </>
+        </div>
     );
 }
