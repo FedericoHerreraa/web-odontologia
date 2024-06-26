@@ -19,8 +19,9 @@ import {
 
 export default function Header() {
   const [fix, setFix] = useState(false)
-  const phoneNumber = 541122758931;
-  const encodedMessage = "hol, quisiera hacer una consulta";
+  const phoneNumber = 541170266735;
+  const message = "¡Hola!, quisiera hacer una consulta";
+  const encodedMessage = encodeURIComponent(message);
 
   function setFixedSideBar(){
     if (window.scrollY >= 300){

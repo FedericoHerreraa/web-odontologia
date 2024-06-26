@@ -103,11 +103,10 @@ export default function Contactanos() {
                 
               </li>
               <li>
-                {" "}
                 <WhatsAppIcon /> 
-                +54 1122223333
+                +54 9 11 7026-6735
               </li>
-              <li>
+              <li >
                 <MailOutlineIcon /> 
                 ChristianSaad@gmail.com
               </li>
