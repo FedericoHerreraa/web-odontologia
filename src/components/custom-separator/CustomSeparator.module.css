@@ -17,3 +17,13 @@
     width: 60px;
     border-radius: 50px;
 }
+
+@media  screen and (width <= 758px) {
+    .container hr{
+        width: 45%;
+    }
+    .logo{
+        width: 50px;
+    }
+    
+}

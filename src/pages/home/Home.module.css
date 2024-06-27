@@ -66,9 +66,17 @@
   }
   .containerSlider{
     font-size: 10px;
-    height: 70px;
+    width: 100%;
+    padding: 10px;
     text-align: center;
-
   }
+  .descripcion{
+    padding-top: 10px;
+    text-align: center;
+  }
+  .especialidades p{
+    font-size: 15px;
+  }
+
   
 }

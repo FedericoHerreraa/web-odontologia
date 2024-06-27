@@ -53,8 +53,8 @@ export default function Header() {
           <MailOutlineIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }} className="text-red-500" />
           <InstagramIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }} className="text-pink-500" />
         </div>
-        <div className={styles.menuButton}>
-          <button onClick={toggleMenu} className="p-2 text-white-500">
+        <div className={fix? styles.menuButtonFixed : styles.menuButton}>
+          <button onClick={toggleMenu} className="p-2">
             <MenuIcon fontSize="large" />
           </button>
         </div>

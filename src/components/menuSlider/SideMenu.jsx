@@ -37,12 +37,15 @@ export default function SideMenu({ isOpen, toggleMenu }) {
         
         <Link className='block font-semibold uppercase mb-[30px]' to='/sobreNosotros'>
           Sobre nosotros
+          <ArrowForwardIos fontSize="smaller"  className="ml-[10px] text-justify"/>
         </Link>
         <Link className='block font-semibold uppercase mb-[30px]' to='/nuestrosServicios'>
           Nuestros servicios
+          <ArrowForwardIos fontSize="smaller"  className="ml-[10px] text-justify"/>
         </Link>
         <Link className='block font-semibold uppercase mb-[30px]' to='/contactanos'>
             Contactanos
+            <ArrowForwardIos fontSize="smaller"  className="ml-[10px] text-justify"/>
         </Link>
       </div>
     </animated.div>
