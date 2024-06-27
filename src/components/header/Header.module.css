@@ -98,4 +98,8 @@
   .redes{
     display: none;
   }
+
+  .redesfixed{
+    display: none;
+  }
 }
