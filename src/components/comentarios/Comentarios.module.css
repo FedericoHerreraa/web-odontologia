@@ -1,6 +1,6 @@
 
 .container {
-    height: 80vh;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -12,4 +12,10 @@
     margin-bottom: 20px;
     margin: 30px;
     color: rgb(7, 3, 68);
+}
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-size: 30px;
+    }
 }

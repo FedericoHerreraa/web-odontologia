@@ -1,38 +1,50 @@
 /* Footer.module.css */
 .footerContainer {
-  /* background-color: rgb(18, 18, 61); */
   background-color: #00173A;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
-  
+  gap: 30px;
+  min-height: 70vh;
+  padding-left: 0px;
 }
+
 .footerTop{
   display: flex;
-
+  align-items: start;
+  justify-content: space-around;
+  margin-top: 40px;
 }
 
 .footerLogo {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  width: 30%;
+  gap: 5px;
+  width: 33%;
+}
+
+.imgLogoFooter {
+  width: 300px;
+}
+
+.footerLogo p {
+  color: rgb(192, 192, 192);
 }
 
 .footerLogo img {
-  width: 100%;
+  width: 80%;
 }
 
 .footerSection {
-  width: 40%;
+  width: 33%;
   min-width: 200px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .footerTitle {
-  padding-top: 30px;
-  font-size: 1.2em;
+  /* padding-top: 30px; */
+  font-size: 1.7em;
   margin-bottom: 10px;
   color: white;
   border-bottom: 1px solid white;
@@ -41,10 +53,11 @@
 }
 
 .footerText {
-  color: white;
   font-size: 0.9em;
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
+  /* align-items: center; */
 }
 
 .footerText img {
@@ -52,8 +65,8 @@
 }
 
 .footerBottom {
-  color: white;
-  border-top: 1px solid white;
+  color: rgb(188, 188, 188);
+  border-top: 1px solid rgb(135, 135, 135);
   text-align: center;
   justify-content: center;
   font-size: 0.8em;
@@ -64,7 +77,7 @@
 }
 
 .footerLink {
-  color: white;
+  color: rgb(192, 192, 192);
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -73,27 +86,37 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 768px) {
+  
   .footerContainer {
     height: auto;
-    padding-left: 30px;
     align-content: center;
   }
 
   .footerTop {
-    
-    align-items: center;
+    flex-direction: column;
+    padding-left: 30px;
   }
 
   .footerSection {
     width: 100%;
     min-width: unset;
     padding-bottom: 10px;
-     /* Añadido para centrar el texto en pantallas pequeñas */
+  }
+
+  .footerSection Iframe{
+    width: 250px;
+    height: auto;
   }
 
   .footerLogo {
-    display: none;
+    width: 100%;
+    align-items: start;
+    margin-bottom: 50px;
+  }
+
+  .footerLogo p {
+    margin-left: 70px;
   }
 
   .footerTitle {
@@ -105,13 +128,7 @@
   }
 
   .footerBottom {
-    flex-direction: column;
-    padding-top: 10px;
-  }
-
-  .footerSection Iframe{
-    width: 250px;
-    height: auto;
+    padding: 10px;
   }
 }
 

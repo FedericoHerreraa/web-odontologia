@@ -10,10 +10,10 @@
 }
 
 .container hr {
-    width: 18%;
+    width: 25%;
     border-color: rgb(30, 27, 49);
 }
-.logo{
+.logo {
     width: 60px;
     border-radius: 50px;
 }
@@ -22,8 +22,9 @@
     .container hr{
         width: 45%;
     }
+    
     .logo{
-        width: 50px;
+        width: 40px;
     }
     
 }

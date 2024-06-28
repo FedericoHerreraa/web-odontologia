@@ -20,7 +20,7 @@
   height: 60px;
   top: 0px;
   position: sticky;
-  z-index: 100;
+  z-index: 40;
   transition: all 0.3s;
 }
 
@@ -35,7 +35,7 @@
   height: 60px;
   top: 0px;
   position: sticky;
-  z-index: 100;
+  z-index: 40;
   transition: all 0.2s;
 }
 
@@ -43,7 +43,7 @@
   transition: all 0.2s;
   display: flex;
   gap: 30px;
-  padding: 0px 20px;
+  padding: 0px 0px;
   align-items: center;
 }
 
@@ -52,7 +52,7 @@
   color: #00173A;
   display: flex;
   gap: 30px;
-  padding: 0px 20px;
+  padding: 0px 0px;
   text-align: center;
 }
 

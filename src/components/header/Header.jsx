@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import img from './../../../img/ChristianSaad-07.png';
 import imgfixed from './../../../img/ChristianSaad-02.png';
 import { useState, useEffect } from "react";
@@ -49,9 +49,9 @@ export default function Header() {
           </Link>
         </div>
         <div className={fix ? styles.redesfixed : styles.redes}>
-          <WhatsAppComponent />
-          <MailOutlineIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }} className="text-red-500" />
-          <InstagramIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }} className="text-pink-500" />
+          <WhatsAppComponent/>
+          {/* <MailOutlineIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }} className="text-red-400" />
+          <InstagramIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }} className="text-pink-800" /> */}
         </div>
         <div className={fix? styles.menuButtonFixed : styles.menuButton}>
           <button onClick={toggleMenu} className="p-2">

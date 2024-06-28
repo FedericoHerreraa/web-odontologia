@@ -19,7 +19,7 @@ import {
     return (
       <AlertDialog>
         <AlertDialogTrigger>
-          <WhatsAppIcon style={{ opacity: 0.8, cursor: "pointer" }} fontSize="medium" className="text-green-500 opacity-80 cursor-pointer " />
+          <WhatsAppIcon style={{ opacity: 0.8, cursor: "pointer" }} fontSize="large" className="text-green-500 opacity-80 cursor-pointer " />
         </AlertDialogTrigger>
         <AlertDialogContent className="p-6 bg-white rounded-lg shadow-lg max-w-3xl mx-auto">
           <div className="flex items-center justify-center mb-4">

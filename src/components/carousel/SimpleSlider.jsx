@@ -25,7 +25,7 @@ const SimpleSlider = () => {
   }
 
   return (
-    <div style={{ width: '80%', margin: '20px auto'}}>
+    <div className="w-[90%] md:w-[80%] my-[20px] mx-auto">
       <Carousel
         style={{ boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.2)", padding: '20px', borderRadius: '10px'}}
         opts={{
@@ -39,7 +39,7 @@ const SimpleSlider = () => {
         ]}
       >
         <CarouselContent>
-          <CarouselItem >
+          <CarouselItem className="text-sm md:text-md">
             {stars()}
             Fui a este consultorio para un tratamiento de ortodoncia y no puedo
             estar más contenta con los resultados. Desde la primera consulta, el

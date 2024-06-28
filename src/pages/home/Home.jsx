@@ -11,10 +11,12 @@ export default function Home() {
     <div className={styles.home}>
       <ScrollToTop/>
       <div className={styles.infoImg}>
-        <img src={img} alt=""  style={{width: 700}}/>
-        <p className={styles.descripcion}>
-          Consultorio privado de odontología seguro, confiable y el mejor de la zona.
-        </p>
+        <div className={styles.encabezado}>
+          <img src={img} alt=""  style={{ width: 700 }}/>
+          <p className={styles.descripcion}>
+            Consultorio privado de odontología seguro, confiable y el mejor de la zona.
+          </p>
+        </div>
         <div className={styles.containerSlider}>
           <div className={styles.especialidades}>
             <p>Odontología General</p>
