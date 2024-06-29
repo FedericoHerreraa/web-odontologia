@@ -9,7 +9,7 @@ import img3 from "./../../../img/modals/ortodoncia.jpg"
 import img4 from "./../../../img/modals/odontologia.jpg"
 import img5 from "./../../../img/modals/endodoncia.jpg"
 import img6 from "./../../../img/modals/periodoncia.jpg"
-
+import WhatsAppComponent from '../../components/whatsapp/WhatsApp'
 
 import {
     AlertDialog,
@@ -23,6 +23,7 @@ import {
 export default function NuestrosServicios() {
     return (
         <>
+            <WhatsAppComponent/>
             <ScrollToTop/>
             <div>
                 <div className={styles.container}>

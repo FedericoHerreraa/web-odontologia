@@ -38,6 +38,16 @@ export const Cards = () => {
           </div>
           <img src={img3} alt="" />
         </div>
+        <div className={styles.card}>
+          <img src={img3} alt="" />
+          <div>
+            <h3>Contactanos</h3>
+            <p className={styles.texto}>
+            ¡Estamos aquí para cuidar tu salud bucal! Ofrecemos una amplia gama de servicios para ti y tu familia, utilizando la última tecnología y un equipo profesional altamente capacitado. Contáctanos hoy para programar tu cita y experimentar una atención de calidad y resultados excepcionales.
+            </p>
+            <Link to="/nuestrosServicios" className={styles.boton}>Ver Más <ArrowRight size={20} strokeWidth={1.7}className={styles.icono}/> </Link>
+          </div>
+        </div>
       </div>
     </div>
   )

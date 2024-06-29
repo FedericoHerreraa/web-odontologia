@@ -1,6 +1,6 @@
 
 .container {
-    min-height: 60vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -10,7 +10,7 @@
 .titulo {
     font-size: 50px;
     margin-bottom: 20px;
-    margin: 30px;
+    margin-top: 50px;
     color: rgb(7, 3, 68);
 }
 

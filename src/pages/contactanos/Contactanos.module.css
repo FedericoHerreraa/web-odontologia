@@ -6,25 +6,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .ContForm{
     width: 65%;
     height: 550px;
-    background-color: rgba(9, 9, 83, 0.541);
+    background-color: rgb(20, 20, 58);
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .contEncontranos{
     width: 35%;
     height: 550px;
-    background-color: rgba(9, 9, 83, 0.541);
+    background-color: rgb(23, 23, 63);
     text-align:center;
-    border-left: 2px solid white;
+    border-left: 4px solid white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding-left: 30px;
-    
 }
 
 
@@ -43,16 +42,17 @@
     color: white;
 }
 
-.titulo{
+.titulo {
     color: white;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3em;
+    font-size: 4em;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
+
 .h1{
     padding-right: 30px;
 }
@@ -63,8 +63,8 @@
 
 .txt{
     border: none; 
-    border-bottom: 2px solid white;
-    border-radius: 3px;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    /* border-radius: 3px; */
     background-color: transparent; 
     outline: none; 
     width: 700px;
@@ -80,11 +80,11 @@
     flex-direction: column;
 
 }
-
-.inputs{
+ 
+.inputs {
     border: none; 
-    border-bottom: 2px solid white;
-    border-radius: 3px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    /* border-radius: 3px; */
     background-color: transparent; 
     outline: none; 
     width: 80%;
@@ -96,26 +96,29 @@
 
 .enviar{
     border: none; 
-    border-bottom: 2px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    background-color: transparent; 
-    outline: none; 
-    color: white;
-    height: 35px;
-    width: 100px;
-    transition: all 0.5s;
-}
-
-.enviar:hover{
+    /* border-bottom: 2px solid rgb(255, 255, 255); */
     background-color: white;
+    border-radius: 5px;
+    /* background-color: transparent;  */
+    outline: none; 
+    /* color: white; */
     color: rgb(6, 6, 77);
+    height: 35px;
+    width: 150px;
+    transition: all 0.5s;
     cursor: pointer;
 }
 
+/* .enviar:hover{
+    background-color: white;
+    color: rgb(6, 6, 77);
+
+} */
+
 .inputs::placeholder{
-    color: white;
+    color: rgb(216, 216, 216);
 }
 
 .txt::placeholder{
-    color: white;
+    color: rgb(216, 216, 216);
 }

@@ -31,8 +31,8 @@ export default function Contactanos() {
       <div className={styles.contenedor}>
         <div className={styles.ContForm}>
           <div className={styles.titulo}>
-            <h1 className={styles.h1}>Contactanos </h1>
-            <CiPaperplane/>
+            <h1 className={styles.h1}>Contactanos</h1>
+            <CiPaperplane size={'40px'}/>
           </div>
           <form onSubmit={handleSubmit} className={styles.campoForm}>
             <div className={styles.section}>
@@ -78,7 +78,7 @@ export default function Contactanos() {
                 onChange={(e) => setMensaje(e.target.value)}
               />
             </div>
-            <input className={styles.enviar} type="submit" />
+            <input className={styles.enviar} type="submit" value="Enviar"/>
           </form>
         </div>
         <div className={styles.contEncontranos}>

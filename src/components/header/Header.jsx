@@ -7,7 +7,8 @@ import imgfixed from './../../../img/ChristianSaad-02.png';
 import { useState, useEffect } from "react";
 import SideMenu from "../menuSlider/SideMenu";
 import MenuIcon from "@mui/icons-material/Menu";
-import WhatsAppComponent from "../whatsapp/WhatsApp";
+// import WhatsAppComponent from "../whatsapp/WhatsApp";
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,7 +50,7 @@ export default function Header() {
           </Link>
         </div>
         <div className={fix ? styles.redesfixed : styles.redes}>
-          <WhatsAppComponent/>
+          {/* <WhatsAppComponent/> */}
           {/* <MailOutlineIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }} className="text-red-400" />
           <InstagramIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }} className="text-pink-800" /> */}
         </div>
