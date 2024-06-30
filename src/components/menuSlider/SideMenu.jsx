@@ -3,7 +3,9 @@ import { useSpring, animated } from '@react-spring/web';
 import { useEffect } from "react";
 
 import { Link, useLocation } from "react-router-dom";
-import WhatsAppComponent from "../whatsapp/WhatsApp";
+// import WhatsAppComponent from "../whatsapp/WhatsApp";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import CloseIcon from '@mui/icons-material/Close';
@@ -32,7 +34,7 @@ export default function SideMenu({ isOpen, toggleMenu }) {
       <div className='ml-[10%] mt-[40%]'>
         <Accordion className='m-0 p-0 font-semibold uppercase shadow-none mb-[20px] items-center'>
           <AccordionDetails className="flex justify-center">
-            <WhatsAppComponent />
+            <WhatsAppIcon  style={{ opacity: 0.8, cursor: "pointer" }} fontSize="large" className="text-green-500 opacity-80 cursor-pointer "/>
             <MailOutlineIcon fontSize="large" className="text-blue-500 opacity-80 cursor-pointer mr-[30px] ml-[30px]" />
             <InstagramIcon fontSize="large" className="text-pink-500 opacity-80 cursor-pointer" />
           </AccordionDetails>
