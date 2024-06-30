@@ -63,3 +63,9 @@
 .item p {
   color: #001f3f;
 }
+
+@media  screen and (width <= 758px){
+  .container{
+    height: 180vh;
+  }
+}
