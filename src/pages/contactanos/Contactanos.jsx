@@ -26,7 +26,7 @@ export default function Contactanos() {
   };
 
   return (
-    <>
+    <div >
       <ScrollToTop/>
       <div className={styles.contenedor}>
         <div className={styles.ContForm}>
@@ -115,6 +115,6 @@ export default function Contactanos() {
         </div>
       </div>
       <Footer/>
-    </>
+    </div>
   );
 }

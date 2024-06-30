@@ -122,3 +122,19 @@
 .txt::placeholder{
     color: rgb(216, 216, 216);
 }
+
+
+@media screen and (width <= 758){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        height: 3000px;
+    }
+    .contEncontranos{
+        display: flex;
+
+    }
+    .ContForm{
+        display: flex;
+    }
+}
