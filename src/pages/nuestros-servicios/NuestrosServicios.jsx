@@ -23,7 +23,7 @@ export default function NuestrosServicios() {
       <div>
         <div className={styles.container}>
           <div className={styles.title}>
-            <h1>Tratamientos</h1>
+            <h1>Nuestros Tratamientos</h1>
             <CustomSeparator />
             <div>
               <p>

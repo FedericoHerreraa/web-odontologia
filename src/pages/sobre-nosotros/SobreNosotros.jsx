@@ -20,11 +20,12 @@ export default function SobreNosotros() {
         <ScrollToTop />
         <div className={styles.container}>
           <div className={styles.title}>
-            <h1>Conócenos</h1>
+            <h1>Sobre Nosotros</h1>
             <CustomSeparator />
             <div>
-              <p>El fin de este apartado es que nos conozcas un poco mejor. </p>
-              <p>Además encontrarás preguntas frecuentes con sus repuestas.</p>
+              <p className="md:mx-60">Conocenos para darte cuenta porque toda la gente nos elije a nosotros como el mejor consultorio y <span className="font-bold">el mas confiable de la zona!</span></p>
+              {/* <p>El fin de este apartado es que <span className="font-bold">nos conozcas</span> un poco mejor. </p>
+              <p>Además encontrarás preguntas frecuentes con sus repuestas.</p> */}
             </div>
           </div>
           <div className={styles.grid}>
