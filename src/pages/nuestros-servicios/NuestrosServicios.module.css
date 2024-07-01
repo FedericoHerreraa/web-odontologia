@@ -1,6 +1,8 @@
+
+
 .container {
   max-width: 93%;
-  height: 150vh;
+  min-height: 150vh;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -28,7 +30,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
-  height: 80vh;
+  min-height: 90vh;
+  margin-bottom: 50px;
 }
 
 .cardContainer {
@@ -42,6 +45,7 @@
   flex-direction: column;
   align-items: center;
   text-align: left;
+  height: 250px;
 }
 
 .cardContainer:hover {
@@ -68,6 +72,6 @@
 
 @media  screen and (width <= 758px){
   .container{
-    height: 1900px;
+    height: 330vh;
   }
 }
