@@ -14,7 +14,7 @@ export default function Home() {
         <ScrollToTop/>
         <div className={styles.infoImg}>
           <div className={styles.encabezado}>
-            <img src={img} alt=""  style={{ width: 700 }}/>
+            <img src={img} alt="" style={{ width: 700 }}/>
             <p className={styles.descripcion}>
               Consultorio privado de odontología seguro, confiable y el mejor de la zona.
             </p>
