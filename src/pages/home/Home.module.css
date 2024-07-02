@@ -11,12 +11,12 @@
   align-items: center;
 }
 
-
-
 .descripcion {
   font-size: 18px;
   margin-bottom: 50px;
 }
+
+
 
 .descContainer {
   background-image: url("../../../img/Fondo.jpg");
@@ -60,7 +60,7 @@
 @media  screen and (width <= 758px) {
 
   .infoImg{
-    padding: 40px;
+    padding: 15px;
     width: 100%;
   }
 

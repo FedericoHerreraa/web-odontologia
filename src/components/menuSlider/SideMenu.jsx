@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 import { Link, useLocation } from "react-router-dom";
 // import WhatsAppComponent from "../whatsapp/WhatsApp";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+// import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -32,11 +32,11 @@ export default function SideMenu({ isOpen, toggleMenu }) {
         <CloseIcon color="black" fontSize="large"/>
       </button>
       <div className='ml-[10%] mt-[40%]'>
-        <Accordion className='m-0 p-0 font-semibold uppercase shadow-none mb-[20px] items-center'>
-          <AccordionDetails className="flex justify-center">
-            <WhatsAppIcon  style={{ opacity: 0.8, cursor: "pointer" }} fontSize="large" className="text-green-500 opacity-80 cursor-pointer "/>
-            <MailOutlineIcon fontSize="large" className="text-blue-500 opacity-80 cursor-pointer mr-[30px] ml-[30px]" />
-            <InstagramIcon fontSize="large" className="text-pink-500 opacity-80 cursor-pointer" />
+        <Accordion className='m-0 p-0 font-semibold uppercase shadow-none mb-[20px] items-center w-[70%]'>
+          <AccordionDetails className="flex  justify-around ">
+            {/* <WhatsAppIcon  style={{ opacity: 0.8, cursor: "pointer" }} fontSize="large" className="text-green-500 opacity-80 cursor-pointer "/> */}
+            <Link to='/contactanos'><MailOutlineIcon fontSize="large" className="text-red-800 opacity-80 cursor-pointer" /></Link>
+            <Link to='/contactanos'><InstagramIcon fontSize="large" className="text-pink-600 opacity-80 cursor-pointer" /></Link>
           </AccordionDetails>
         </Accordion>
         

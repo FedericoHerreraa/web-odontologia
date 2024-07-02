@@ -23,10 +23,8 @@ import {
             <img 
               src={imgWhatsapp} 
               alt="" 
-              height="60" 
-              width="60" 
               style={{zIndex:500}}
-              className="fixed z-100 bottom-0 m-4 cursor-pointer rounded-full border-[3px] border-white shadow-2xl"
+              className="fixed z-100 md:w-[60px] md:h-[60px] w-[50px] h-[50px] bottom-0 m-4 cursor-pointer rounded-full border-[3px] border-white shadow-2xl"
             />
           {/* <WhatsAppIcon style={{ opacity: 0.8, cursor: "pointer" }} fontSize="large" className="text-green-500 opacity-80 cursor-pointer " /> */}
         </AlertDialogTrigger>
