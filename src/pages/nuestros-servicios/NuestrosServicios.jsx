@@ -1,4 +1,3 @@
-import Footer from "@/components/footer/Footer";
 import styles from "./NuestrosServicios.module.css";
 import { FaTeeth, FaTooth, FaTeethOpen } from "react-icons/fa";
 import CustomSeparator from "@/components/custom-separator/CustomSeparator";
@@ -79,7 +78,6 @@ export default function NuestrosServicios() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

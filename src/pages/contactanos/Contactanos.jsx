@@ -6,7 +6,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { CiPaperplane } from "react-icons/ci";
 import PinDropIcon from '@mui/icons-material/PinDrop';
 import Iframe from 'react-iframe'
-import Footer from "@/components/footer/Footer";
+
 import ScrollToTop from "@/components/scroll/ScrollToTop";
 
 // import img from "./../../../img/image.png";
@@ -113,7 +113,6 @@ export default function Contactanos() {
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   );
 }

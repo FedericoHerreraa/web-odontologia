@@ -136,15 +136,17 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 200vh;
+        height: 220vh;
         padding: 0;
-        margin: 0px 10px
+        margin: 0px 10px;
+        
     }
     .contEncontranos{
         padding: 10px;
         width: 100%;
         border: none;
         margin-bottom: 50px;
+        border-radius: 5px
        
     }
     .contEncontranos div{
@@ -164,7 +166,7 @@
         height: fit-content;
         padding-bottom: 20px;
         margin-bottom: 20px;
-
+        border-radius: 5px
     }
     .contenedorUbicacion{
         margin: 0;
