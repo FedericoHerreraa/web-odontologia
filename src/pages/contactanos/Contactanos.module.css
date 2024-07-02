@@ -122,19 +122,65 @@
 .txt::placeholder{
     color: rgb(216, 216, 216);
 }
+.ubi{
+    height: 320px;
+    width: 350px;
+}
 
 
-@media screen and (width <= 758){
+@media screen and (width <= 758px){
+    .titulo{
+        font-size: 2em;
+    }
     .contenedor{
         display: flex;
         flex-direction: column;
-        height: 3000px;
+        justify-content: space-around;
+        height: 200vh;
+        padding: 0;
+        margin: 0px 10px
     }
     .contEncontranos{
+        padding: 10px;
+        width: 100%;
+        border: none;
+        margin-bottom: 50px;
+       
+    }
+    .contEncontranos div{
         display: flex;
-
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ubi{
+        width: 290px;
     }
     .ContForm{
         display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+        height: fit-content;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+
+    }
+    .contenedorUbicacion{
+        margin: 0;
+        margin-bottom:10px;
+    }
+    .txt{
+        width: 100%;
+    }
+    .redes{
+        justify-content: space-around;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .campoTexto{
+        width: 80%;
     }
 }
