@@ -46,8 +46,9 @@
 .card img {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.2s;
-  
+  border-radius: 10px;
 }
+
 .card img:hover{
   transform: scale(1.1);
 }
@@ -157,9 +158,10 @@
   }
 
   .card img {
-    width: 250px;
+    width: 310px;
     text-align: center;
     padding: 0px;
+    
   }
 
   .texto {

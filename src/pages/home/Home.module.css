@@ -75,14 +75,13 @@
     text-align: center;
     margin-top: 50px;
     margin-bottom: 70px;
-    background-color: rgb(59, 59, 104);
   }
   
 
   .descripcion{
     padding-top: 10px;
     font-size: small;
-    font-weight: 700;
+    font-weight: 300;
     text-align: center;
   }
 
