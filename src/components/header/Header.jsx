@@ -14,17 +14,17 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [fix, setFix] = useState(false);
 
-  const updateMetaThemeColor = (color) => {
-    let metaThemeColor = document.querySelector("meta[name=theme-color]");
-    if (metaThemeColor) {
-      metaThemeColor.setAttribute("content", color);
-    } else {
-      metaThemeColor = document.createElement('meta');
-      metaThemeColor.name = "theme-color";
-      metaThemeColor.content = color;
-      document.head.appendChild(metaThemeColor);
-    }
-  };
+  // const updateMetaThemeColor = (color) => {
+  //   let metaThemeColor = document.querySelector("meta[name=theme-color]");
+  //   if (metaThemeColor) {
+  //     metaThemeColor.setAttribute("content", color);
+  //   } else {
+  //     metaThemeColor = document.createElement('meta');
+  //     metaThemeColor.name = "theme-color";
+  //     metaThemeColor.content = color;
+  //     document.head.appendChild(metaThemeColor);
+  //   }
+  // };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,10 +37,10 @@ export default function Header() {
     };
   }, []);
 
-  useEffect(() => {
-    const headerColor = fix ? 'white' : '#00173A'; 
-    updateMetaThemeColor(headerColor);
-  }, [fix]);
+  // useEffect(() => {
+  //   const headerColor = fix ? 'white' : '#00173A'; 
+  //   updateMetaThemeColor(headerColor);
+  // }, [fix]);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);

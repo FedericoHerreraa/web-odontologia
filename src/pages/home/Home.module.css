@@ -69,9 +69,8 @@
   }
 
   .containerSlider{
-    font-size: 5px;
     width: 100%;
-    padding: 10px 10px;
+    padding: 14px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 70px;
@@ -85,9 +84,12 @@
     text-align: center;
   }
 
+  .especialidades {
+    animation: scroll 15s linear infinite;
+    width: 360%;
+  }
+
   .especialidades p{
     font-size: 13px;
   }
-
-  
 }
