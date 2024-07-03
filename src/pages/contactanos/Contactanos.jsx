@@ -6,7 +6,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { CiPaperplane } from "react-icons/ci";
 import PinDropIcon from '@mui/icons-material/PinDrop';
 import Iframe from 'react-iframe'
-import Footer from "@/components/footer/Footer";
+
 import ScrollToTop from "@/components/scroll/ScrollToTop";
 
 // import img from "./../../../img/image.png";
@@ -69,7 +69,7 @@ export default function Contactanos() {
                 />
               </div>
             </div>
-            <div>
+            <div className={styles.campoTexto}>
               <input
                 className={styles.txt}
                 type="text"
@@ -88,9 +88,8 @@ export default function Contactanos() {
               <PinDropIcon/>
             </div>
             <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.280204830463!2d-58.400699325341755!3d-34.59707537295656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca969cdfeaff%3A0xabffacf5462f059a!2sMarcelo%20Torcuato%20de%20Alvear%202149%2C%20C1122AAG%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1718206805718!5m2!1ses-419!2sar"
-              width="350px"
-            height="320px"
-            className=""
+              
+            className={styles.ubi}
             display="block"
             position="relative"/>
     
@@ -99,22 +98,21 @@ export default function Contactanos() {
             <ul>
               <li>
                 <InstagramIcon /> 
-                <a href="https://www.instagram.com/dr.christiansaad?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Dr.ChristianSaad</a>
+                 <a href="https://www.instagram.com/dr.christiansaad?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Dr.ChristianSaad</a>
                 
               </li>
               <li>
                 <WhatsAppIcon /> 
-                +54 9 11 7026-6735
+                 +54 9 11 7026-6735
               </li>
               <li >
                 <MailOutlineIcon /> 
-                ChristianSaad@gmail.com
+                       ChristianSaad@gmail.com
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   );
 }

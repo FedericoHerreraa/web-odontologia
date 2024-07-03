@@ -1,6 +1,5 @@
 import { AccordionDemo } from "@/components/preguntas/Preguntas";
 import styles from "./SobreNosotros.module.css";
-import Footer from "@/components/footer/Footer";
 import CustomSeparator from "@/components/custom-separator/CustomSeparator";
 import ScrollToTop from "@/components/scroll/ScrollToTop";
 import WhatsAppComponent from '../../components/whatsapp/WhatsApp'
@@ -79,7 +78,6 @@ export default function SobreNosotros() {
             <AccordionDemo />
           </div>
         </div>
-        <Footer />
       </div>
     </>
   );

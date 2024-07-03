@@ -5,6 +5,7 @@ import NuestrosServicios from './pages/nuestros-servicios/NuestrosServicios'
 import SobreNosotros from './pages/sobre-nosotros/SobreNosotros'
 import Home from './pages/home/Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Footer from './components/footer/Footer'
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/sobreNosotros' element={<SobreNosotros/>}/>
         <Route path='/nuestrosServicios' element={<NuestrosServicios/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }

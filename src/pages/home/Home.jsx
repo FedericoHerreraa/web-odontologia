@@ -1,6 +1,5 @@
 import { Cards } from "../../components/cards/Cards";
 import styles from "./Home.module.css"
-import Footer from "../../components/footer/Footer";
 import Comentarios from "../../components/comentarios/Comentarios";
 import img from './../../../img/ChristianSaad-04.png'
 import ScrollToTop from "@/components/scroll/ScrollToTop";
@@ -38,8 +37,6 @@ export default function Home() {
           <Cards/>
         </div>
         <Comentarios/>
-    
-        <Footer/>
       </div>
     </>
   );
