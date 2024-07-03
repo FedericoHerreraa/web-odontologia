@@ -92,8 +92,8 @@
 
 @media (max-width: 768px) {
   .containerOpiniones {
-    margin-top: 100px;
-    height: 100vh;
+    margin-top: 30px;
+    height: 80vh;
   }
 
   .containerOpiniones h1 {
