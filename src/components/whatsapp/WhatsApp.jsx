@@ -8,7 +8,7 @@ import {
     AlertDialogTrigger,
   } from "@/components/ui/alert-dialog";
   import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-  import imgWhatsapp from '../../../public/whatsapp-svgrepo-com.svg';
+  import imgWhatsapp from '../../../img/whatsapp-svgrepo-com.svg';
   
   const WhatsAppComponent = () => {
     const phoneNumber = 541170266735;
