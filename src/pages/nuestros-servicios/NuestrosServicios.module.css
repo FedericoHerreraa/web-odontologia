@@ -20,13 +20,13 @@
 }
 
 .title h1 {
-  font-size: 3em;
+  font-size: 3.8em;
   margin-bottom: 5px;
   color: #001f3f;
   display: inline-block;
 }
 
-.title div{
+.title div {
   margin-bottom: 20px;
 }
 
@@ -80,9 +80,13 @@
   }
 
   .title h1 {
-    font-size: 32px;
+    font-size: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
 
+  }
+
+  .title div {
+    font-size: 13px;
   }
 }

@@ -21,7 +21,6 @@ export default function SobreNosotros() {
         <div className={styles.container}>
           <div className={styles.title}>
             <h1>Sobre Nosotros</h1>
-            <CustomSeparator />
             <div>
               <p className="md:mx-60">Conocenos para darte cuenta porque toda la gente nos elije a nosotros como el mejor consultorio y <span className="font-bold">el mas confiable de la zona!</span></p>
               {/* <p>El fin de este apartado es que <span className="font-bold">nos conozcas</span> un poco mejor. </p>
@@ -74,8 +73,9 @@ export default function SobreNosotros() {
               </div>
             </div>
           </div>
+          <CustomSeparator />
           <div className={styles.containerOpiniones}>
-            <h2>Preguntas frecuentes</h2>
+            <h1>Preguntas frecuentes</h1>
             <AccordionDemo />
           </div>
         </div>

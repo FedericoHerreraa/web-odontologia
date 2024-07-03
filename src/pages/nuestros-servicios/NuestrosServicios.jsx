@@ -1,7 +1,7 @@
 import Footer from "@/components/footer/Footer";
 import styles from "./NuestrosServicios.module.css";
 import { FaTeeth, FaTooth, FaTeethOpen } from "react-icons/fa";
-import CustomSeparator from "@/components/custom-separator/CustomSeparator";
+// import CustomSeparator from "@/components/custom-separator/CustomSeparator";
 import ScrollToTop from "@/components/scroll/ScrollToTop";
 import WhatsAppComponent from "../../components/whatsapp/WhatsApp";
 
@@ -24,7 +24,7 @@ export default function NuestrosServicios() {
         <div className={styles.container}>
           <div className={styles.title}>
             <h1>Nuestros Tratamientos</h1>
-            <CustomSeparator />
+            {/* <CustomSeparator /> */}
             <div>
               <p>
                 En este apartado se encuentran todos los servicios que ofrecemos
