@@ -35,7 +35,7 @@ export default function Footer() {
       </div>
       <div className={styles.footerBottom}>
         <p>© Dr. christian saad 2024 - Todos los derechos reservados - Recoleta - Buenos Aires</p>
-        <p>Superintendencia de Servicios de Salud</p>
+     
       </div>
     </footer>
   )

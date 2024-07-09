@@ -66,6 +66,7 @@
   text-decoration: none;
   font-weight: 100;
   color: rgb(243, 245, 248);
+  font-family: nunitoSans;
 }
 
 .linkfixed{
@@ -73,6 +74,7 @@
   text-decoration: none;
   font-weight: 100;
   color: #00173A;
+  font-family: nunitoSans;
 }
 
 .link:hover {

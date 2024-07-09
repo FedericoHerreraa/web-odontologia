@@ -39,7 +39,7 @@ const SimpleSlider = () => {
         ]}
       >
         <CarouselContent>
-          <CarouselItem className="text-sm md:text-md">
+          <CarouselItem className="text-sm md:text-lg">
             {stars()}
             Fui a este consultorio para un tratamiento de ortodoncia y no puedo
             estar más contenta con los resultados. Desde la primera consulta, el

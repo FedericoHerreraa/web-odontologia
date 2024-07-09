@@ -8,10 +8,12 @@
     align-items: center;
 }
 
+
+
 .ContForm{
     width: 65%;
     height: 550px;
-    background-color: rgb(20, 20, 58);
+    background-color: rgb(224, 231, 238);
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -19,11 +21,12 @@
 .contEncontranos{
     width: 35%;
     height: 550px;
-    background-color: rgb(23, 23, 63);
+    background-color: rgb(224, 231, 238);
     text-align:center;
     border-left: 4px solid white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding-left: 30px;
+    font-family: nunitoSans;
 }
 
 
@@ -33,17 +36,19 @@
     justify-content: center;
     margin-top: 50px;
     font-size: 2.3em;
-    color: white;
+    color: rgb(9, 9, 65);
+    font-family: nunitoSans;
 }
 
 .redes{
     text-align: left;
     padding: 10px;
-    color: white;
+    color: rgb(9, 9, 65);
+    font-family: nunitoSans;
 }
 
 .titulo {
-    color: white;
+    color: rgb(9, 9, 65);
     margin-top: 30px;
     margin-bottom: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -51,10 +56,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: nunitoSans;
 }
 
 .h1{
     padding-right: 30px;
+    font-family: nunitoSans;
 }
 
 .section{
@@ -63,15 +70,17 @@
 
 .txt{
     border: none; 
-    border-bottom: 1px solid rgb(239, 239, 239);
+    border-bottom: 1px solid rgb(9, 9, 65);
     /* border-radius: 3px; */
-    background-color: transparent; 
+    background: transparent;
+    /* background-color: rgb(224, 231, 238);  */
     outline: none; 
     width: 700px;
     height: 80px;
     margin-bottom: 40px;
-    color: white;
+    color: rgb(9, 9, 65);
     font-size: 1rem;
+    font-family: nunitoSans;
 }
 
 .campoForm{
@@ -83,44 +92,40 @@
  
 .inputs {
     border: none; 
-    border-bottom: 1px solid rgb(214, 214, 214);
+    border-bottom: 1px solid rgb(9, 9, 65);
     /* border-radius: 3px; */
     background-color: transparent; 
     outline: none; 
     width: 80%;
     height: 45px;
     margin-bottom: 40px;
-    color: white;
+    color: rgb(9, 9, 65);
     font-size: 1rem;
+    font-family: nunitoSans;
 }
+
 
 .enviar{
     border: none; 
     /* border-bottom: 2px solid rgb(255, 255, 255); */
-    background-color: white;
+    background-color: rgb(9, 9, 65);
     border-radius: 5px;
     /* background-color: transparent;  */
     outline: none; 
-    /* color: white; */
-    color: rgb(6, 6, 77);
+    color: white;
+    font-family: nunitoSans;
     height: 35px;
     width: 150px;
     transition: all 0.5s;
     cursor: pointer;
 }
 
-/* .enviar:hover{
-    background-color: white;
-    color: rgb(6, 6, 77);
-
-} */
-
 .inputs::placeholder{
-    color: rgb(216, 216, 216);
+    color: rgba(54, 24, 109, 0.61);
 }
 
 .txt::placeholder{
-    color: rgb(216, 216, 216);
+    color: rgba(54, 24, 109, 0.61);
 }
 .ubi{
     height: 320px;

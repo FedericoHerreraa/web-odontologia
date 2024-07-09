@@ -41,6 +41,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .card img {
@@ -59,6 +60,8 @@
   font-size: 2.1em;
   margin-bottom: 10px;
   font-weight: bold;
+  font-family: nunitoSans;
+  
 }
 
 .texto {
@@ -66,6 +69,8 @@
   font-size: 1em;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family: nunitoSans;
+  font-weight: 500  ;
 }
 
 
@@ -84,6 +89,7 @@
   overflow: hidden;
   transition: color 0.3s ease;
   cursor: pointer;
+  font-family: nunitoSans;
 }
 
 .boton::before {

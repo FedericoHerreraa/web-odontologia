@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        nunito: ['nunitoSans', 'sans-serif'],
+      },
       colors: {
         customBlue: "#001f3f",
         border: "hsl(var(--border))",

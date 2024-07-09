@@ -17,6 +17,7 @@
 
 .title {
   margin-bottom: 40px;
+  font-family: nunitoSans;
 }
 
 .title h1 {
@@ -24,10 +25,15 @@
   margin-bottom: 5px;
   color: #001f3f;
   display: inline-block;
+  font-family: nunitoSans;
 }
 
 .title div {
   margin-bottom: 20px;
+
+}
+.title div p{
+  font-family: nunitoSans;
 }
 
 .grid {
@@ -68,10 +74,12 @@
   color: #32608f;
   font-weight: bold;
   margin: 10px 0;
+  font-family: nunitoSans;
 }
 
 .item p {
   color: #001f3f;
+  font-family: nunitoSans;
 }
 
 @media  screen and (width <= 758px){

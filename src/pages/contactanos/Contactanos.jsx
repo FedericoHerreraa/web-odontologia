@@ -8,9 +8,18 @@ import PinDropIcon from "@mui/icons-material/PinDrop";
 import Iframe from "react-iframe";
 import emailjs from 'emailjs-com';
 import ScrollToTop from "@/components/scroll/ScrollToTop";
+import 'sweetalert2/dist/sweetalert2.css'; // Importa el CSS
+import Swal from 'sweetalert2';
 
 export default function Contactanos() {
   const form = useRef();
+
+  const show = () => {
+    Swal.fire({
+      text: "Se ha enviado correctamente!",
+      icon: "success"
+    });
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,7 +27,7 @@ export default function Contactanos() {
     emailjs.sendForm('service_626vxf9', 'template_6rl4o8e', form.current, 'Ph0qV7aDICmYHOLkB')
       .then((result) => {
           console.log(result.text);
-          alert("Enviado correctamente");
+          show();
           form.current.reset();  // Clear the form fields
       }, (error) => {
           console.log(error.text);
@@ -63,7 +72,7 @@ export default function Contactanos() {
                 />
                 <input
                   className={styles.inputs}
-                  type="number"
+                  type="tel"
                   placeholder="Teléfono Celular"
                   name="from_phone"
                   required
@@ -114,4 +123,3 @@ export default function Contactanos() {
     </div>
   );
 }
-

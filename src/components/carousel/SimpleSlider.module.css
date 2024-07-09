@@ -57,11 +57,13 @@
   border-radius: 10px;
   font-style: italic;
   font-size: 1.1em;
+  font-family: nunitoSans;
 }
 
 .slick-slide p {
   color: rgb(7, 3, 68);
   font-style: italic;
+  font-family: nunitoSans;
 }
 
 .slick-track {
