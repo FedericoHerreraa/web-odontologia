@@ -23,9 +23,7 @@ export function AccordionDemo() {
       <AccordionItem value="item-2">
         <AccordionTrigger className="font-nunito font-bold">¿Cómo puedo agendar una cita?</AccordionTrigger>
         <AccordionContent className="font-nunito">
-          Puedes agendar una cita llamando a nuestro número de contacto,
-          enviándonos un correo electrónico, o a través de nuestro sistema de
-          citas en línea en nuestro sitio web.
+          Puedes agendar una cita mandandonos un mensaje por nuestro WhatsApp al siguiente numero: <span className="text-blue-900">+54 9 11 7026-6735</span>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
