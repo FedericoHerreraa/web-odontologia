@@ -56,22 +56,25 @@ export default function NuestrosServicios() {
                       </div>
                     </div>
                   </AlertDialogTrigger>
-                  <AlertDialogContent className="flex flex-col items-center md:p-6 bg-white rounded-lg shadow-lg md:max-w-3xl w-4/5">
-                    <AlertDialogTitle className="text-2xl font-bold text-customBlue text-center mb-4">
+                  <AlertDialogContent className="flex flex-col items-center p-4 md:p-6 bg-white rounded-lg shadow-lg md:max-w-3xl w-4/5">
+                    <AlertDialogTitle className="text-4xl font-bold text-customBlue text-center mb-4">
                       {treatment.dialogTitle}
                     </AlertDialogTitle>
                     <AlertDialogDescription className="flex text-base flex-col sm:flex-row items-center sm:items-start w-full text-customBlue">
                       <img
                         src={treatment.imgSrc}
-                        className="w-full sm:w-1/2 h-auto mb-4 sm:mb-0 sm:mr-4"
+                        className="w-full sm:w-1/2 h-auto mb-4 sm:mb-0 sm:mr-4 rounded-lg shadow-sm"
                         alt=""
                       />
-                      {treatment.dialogDescription}
+                      <div className="sm:w-1/2">
+                        {treatment.dialogDescription}
+                      </div>
                     </AlertDialogDescription>
-                    <AlertDialogCancel className="mt-4 px-6 py-2 bg-customBlue text-white rounded-md">
+                    <AlertDialogCancel className="mt-4 px-6 py-2 bg-customBlue text-white rounded-md hover:bg-customBlueDark transition duration-300">
                       Salir
                     </AlertDialogCancel>
                   </AlertDialogContent>
+
                 </AlertDialog>
               ))}
             </div>
