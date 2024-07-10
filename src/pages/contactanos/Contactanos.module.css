@@ -19,7 +19,9 @@
 }
 
 .contEncontranos{
-    width: 35%;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
     height: 550px;
     background-color: rgb(224, 231, 238);
     text-align:center;
@@ -34,17 +36,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
     margin-top: 50px;
-    font-size: 2.3em;
-    color: rgb(9, 9, 65);
+    font-size: 2em;
+    color: rgb(0, 0, 0);
     font-family: nunitoSans;
 }
 
+.tituloMapa {
+    display: flex;
+    flex-direction: column;
+}
+
 .redes{
+    margin-top: 20px;
     text-align: left;
     padding: 10px;
     color: rgb(9, 9, 65);
     font-family: nunitoSans;
+}
+
+.redes li {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 5px;
 }
 
 .titulo {
@@ -56,11 +72,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     font-family: nunitoSans;
 }
 
 .h1{
-    padding-right: 30px;
     font-family: nunitoSans;
 }
 
@@ -135,13 +151,13 @@
 
 @media screen and (width <= 758px){
     .titulo{
-        font-size: 2em;
+        font-size: 2.4em;
     }
     .contenedor{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 170vh;
+        min-height: 230vh;
         padding: 0;
         margin: 0px 10px;
         
@@ -154,15 +170,17 @@
         border-radius: 5px
        
     }
+
     .contEncontranos div{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .ubi{
         width: 290px;
     }
+
     .ContForm{
         display: flex;
         width: 100%;
@@ -171,18 +189,23 @@
         height: fit-content;
         padding-bottom: 20px;
         margin-bottom: 20px;
-        border-radius: 5px
     }
+
     .contenedorUbicacion{
+        display: flex;
         margin: 0;
         margin-bottom:10px;
+        gap: 10px;
     }
+
     .txt{
         width: 100%;
     }
+
     .redes{
         justify-content: space-around;
     }
+
     .section{
         display: flex;
         flex-direction: column;
