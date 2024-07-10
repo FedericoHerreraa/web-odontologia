@@ -8,11 +8,13 @@ import PinDropIcon from "@mui/icons-material/PinDrop";
 import Iframe from "react-iframe";
 import emailjs from 'emailjs-com';
 import ScrollToTop from "@/components/scroll/ScrollToTop";
-import 'sweetalert2/dist/sweetalert2.css'; // Importa el CSS
+import 'sweetalert2/dist/sweetalert2.css';
 import Swal from 'sweetalert2';
 
 export default function Contactanos() {
   const form = useRef();
+
+  const isMobile = () => window.innerWidth <= 768;
 
   const show = () => {
     Swal.fire({
@@ -28,7 +30,7 @@ export default function Contactanos() {
       .then((result) => {
           console.log(result.text);
           show();
-          form.current.reset();  // Clear the form fields
+          form.current.reset();
       }, (error) => {
           console.log(error.text);
           alert("Ocurrió un error, por favor intente nuevamente");
@@ -42,7 +44,7 @@ export default function Contactanos() {
         <div className={styles.ContForm}>
           <div className={styles.titulo}>
             <h1 className={styles.h1}>Contactanos</h1>
-            <CiPaperplane size={"40px"} />
+            <CiPaperplane size={isMobile() ? "25px" : "40px"} />
           </div>
           <form ref={form} onSubmit={sendEmail} className={styles.campoForm}>
             <div className={styles.section}>
@@ -92,10 +94,10 @@ export default function Contactanos() {
           </form>
         </div>
         <div className={styles.contEncontranos}>
-          <div>
+          <div className={styles.tituloMapa}>
             <div className={styles.contenedorUbicacion}>
               <h1>Encontranos</h1>
-              <PinDropIcon />
+              <PinDropIcon fontSize="small"/>
             </div>
             <Iframe
               url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.280204830463!2d-58.400699325341755!3d-34.59707537295656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca969cdfeaff%3A0xabffacf5462f059a!2sMarcelo%20Torcuato%20de%20Alvear%202149%2C%20C1122AAG%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1718206805718!5m2!1ses-419!2sar"
@@ -107,14 +109,16 @@ export default function Contactanos() {
           <div className={styles.redes}>
             <ul>
               <li>
-                <InstagramIcon />
+                <InstagramIcon style={{ opacity: 0.8, cursor: 'pointer' }}  fontSize="small"/>
                 <a href="https://www.instagram.com/dr.christiansaad?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Dr.ChristianSaad</a>
               </li>
               <li>
-                <WhatsAppIcon /> +54 9 11 7026-6735
+                <WhatsAppIcon style={{ opacity: 0.8 }} fontSize="small"/> 
+                <p>+54 9 11 7026-6735</p>
               </li>
               <li>
-                <MailOutlineIcon /> doctorsaadcenturion@gmail.com
+                <MailOutlineIcon style={{ opacity: 0.8 }}  fontSize="small"/> 
+                <p>doctorsaadcenturion@gmail.com</p>
               </li>
             </ul>
           </div>

@@ -44,7 +44,7 @@ import {
                 Abrir WhatsApp
               </a>
             </AlertDialogAction>
-            <AlertDialogCancel className="px-6 py-2 bg-gray-200 text-gray-700 rounded-md">
+            <AlertDialogCancel className="md:px-6 md:py-2 px-2 py-1 bg-gray-200 text-gray-700 rounded-md">
               Cancelar
             </AlertDialogCancel>
           </div>
