@@ -6,9 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
-
-
 
 .ContForm{
     width: 65%;
@@ -25,10 +24,11 @@
     height: 550px;
     background-color: rgb(224, 231, 238);
     text-align:center;
-    border-left: 4px solid white;
+    /* border-left: 4px solid white; */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: nunitoSans;
 }
+
 .contEncontranos div{
     align-items: center;
 }
@@ -41,7 +41,7 @@
     margin-top: 50px;
     margin-bottom: 10px;
     font-size: 2em;
-    color: rgb(0, 0, 0);
+    color: rgb(9, 9, 65);
     font-family: nunitoSans;
 }
 
@@ -159,22 +159,25 @@
     .titulo{
         font-size: 2.4em;
     }
+
     .contenedor{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        min-height: 230vh;
+        min-height: 180vh;
         padding: 0;
-        margin: 0px 10px;
-        
+        margin-left: 7px;
+        margin-right: 7px;
+        gap: 0px;
+        margin-bottom: 120px;
     }
+
     .contEncontranos{
         padding: 10px;
+        padding-top: 40px;
         width: 100%;
-        border: none;
-        margin-bottom: 50px;
+        border-top: 2px solid white;
         border-radius: 5px
-       
     }
 
     .contEncontranos div{
@@ -191,10 +194,10 @@
         display: flex;
         width: 100%;
         flex-direction: column;
-        margin-top: 20px;
+        /* margin-top: 20px; */
         height: fit-content;
         padding-bottom: 20px;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 
     .contenedorUbicacion{
@@ -202,6 +205,10 @@
         margin: 0;
         margin-bottom:10px;
         gap: 10px;
+    }
+
+    .contenedorUbicacion h1 {
+        font-size:2.2rem;
     }
 
     .txt{
