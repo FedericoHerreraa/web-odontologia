@@ -66,11 +66,6 @@ export default function Header() {
             Contactanos
           </Link>
         </div>
-        <div className={fix ? styles.redesfixed : styles.redes}>
-          {/* <WhatsAppComponent/> */}
-          {/* <MailOutlineIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }} className="text-red-400" />
-          <InstagramIcon fontSize="medium" style={{ opacity: 0.8, cursor: 'pointer' }} className="text-pink-800" /> */}
-        </div>
         <div className={fix? styles.menuButtonFixed : styles.menuButton}>
           <button onClick={toggleMenu} className="p-2">
             <MenuIcon fontSize="large" />

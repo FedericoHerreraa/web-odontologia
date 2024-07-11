@@ -30,7 +30,7 @@ import {
         </AlertDialogTrigger>
         <AlertDialogContent className="p-6 bg-white rounded-lg shadow-lg w-2/3 md:max-w-3xl md:mx-auto">
           <div className="flex items-center justify-center mb-4">
-            <WhatsAppIcon className="text-customBlue" style={{ fontSize: "3rem" }} />
+            <WhatsAppIcon className="text-green" style={{ fontSize: "4rem" }} />
           </div>
           <AlertDialogTitle className="text-2xl font-bold text-customBlue text-center mb-4">
             WhatsApp

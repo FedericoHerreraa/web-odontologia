@@ -11,7 +11,8 @@
 .header {
   display: flex;
   background-color: #00173A;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 300px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   color: black;
   align-items: center;
@@ -26,8 +27,8 @@
 
 .headerfixed{
   display: flex;
-  justify-content: space-between;
   background-color: white;
+  gap: 300px;  
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   align-items: center;
   padding: 10px 30px;
@@ -97,6 +98,18 @@
 }
 
 @media (max-width: 758px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+  }
+  
+  .headerfixed {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+  }
+
   .navegacion {
     display: none;
   }
