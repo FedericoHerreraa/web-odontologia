@@ -109,8 +109,14 @@ export default function Contactanos() {
           <div className={styles.redes}>
             <ul>
               <li>
-                <InstagramIcon style={{ opacity: 0.8, cursor: 'pointer' }}  fontSize="small"/>
-                <a href="https://www.instagram.com/dr.christiansaad?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Dr.ChristianSaad</a>
+                <a 
+                  href="https://www.instagram.com/dr.christiansaad?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+                  style={{ display: 'flex', alignItems: 'center', gap: '7px'}}
+                  target="blank"
+                >
+                  <InstagramIcon style={{ opacity: 0.8, cursor: 'pointer' }}  fontSize="small"/>
+                  <p>Dr.ChristianSaad</p>
+                </a>
               </li>
               <li>
                 <WhatsAppIcon style={{ opacity: 0.8 }} fontSize="small"/> 

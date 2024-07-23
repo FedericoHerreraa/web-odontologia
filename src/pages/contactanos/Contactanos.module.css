@@ -170,6 +170,8 @@
         margin-right: 7px;
         gap: 0px;
         margin-bottom: 120px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .contEncontranos{
